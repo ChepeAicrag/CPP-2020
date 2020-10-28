@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e004_typeint.dir/e004_typeint.cpp.o -o e004_typeint 

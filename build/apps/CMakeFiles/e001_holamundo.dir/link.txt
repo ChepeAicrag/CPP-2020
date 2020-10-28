@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e001_holamundo.dir/e001_holamundo.cpp.o -o e001_holamundo 

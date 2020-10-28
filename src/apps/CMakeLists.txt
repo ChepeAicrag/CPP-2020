@@ -1,0 +1,8 @@
+add_executable ( e001_holamundo e001_holamundo.cpp )
+add_executable ( e002_typechar  e002_typechar.cpp )
+add_executable ( e003_typechar16  e003_typechar16.cpp )
+add_executable ( e004_typeint e004_typeint.cpp )
+add_executable ( e005_typesignedint e005_typesignedint.cpp )
+add_executable ( e006_typeunsignedint e006_typeunsignedint.cpp )
+add_executable ( e007_typefloat e007_typefloat.cpp)
+add_executable ( e008_typebool e008_typebool.cpp )

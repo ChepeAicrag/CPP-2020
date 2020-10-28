@@ -1,0 +1,12 @@
+/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles/rebuild_cache.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles/edit_cache.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/edit_cache.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e008_typebool.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/rebuild_cache.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e002_typechar.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e007_typefloat.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e001_holamundo.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e005_typesignedint.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e004_typeint.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e006_typeunsignedint.dir
+/home/chepeaicrag/Escritorio/CPP-2020/build/apps/CMakeFiles/e003_typechar16.dir

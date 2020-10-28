@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e008_typebool.dir/e008_typebool.cpp.o -o e008_typebool 

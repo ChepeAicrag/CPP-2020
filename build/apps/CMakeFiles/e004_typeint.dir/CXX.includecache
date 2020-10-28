@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chepeaicrag/Escritorio/CPP-2020/src/apps/e004_typeint.cpp
+iostream
+-
+limits
+-
+math.h
+-
+

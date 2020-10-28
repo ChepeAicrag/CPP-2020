@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e002_typechar.dir/e002_typechar.cpp.o -o e002_typechar 
