@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e019_condiciones.dir/e019_condiciones.cpp.o -o e019_condiciones 

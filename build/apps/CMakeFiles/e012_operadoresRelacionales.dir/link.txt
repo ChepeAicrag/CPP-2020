@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e012_operadoresRelacionales.dir/e012_operadoresRelacionales.cpp.o -o e012_operadoresRelacionales 

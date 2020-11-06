@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e018_input_output.dir/e018_input_output.cpp.o -o e018_input_output 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e009_operadorArtimetico.dir/e009_operadorArtimetico.cpp.o -o e009_operadorArtimetico 

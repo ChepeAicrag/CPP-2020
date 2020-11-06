@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e017_casting.dir/e017_casting_2.cpp.o -o e017_casting 

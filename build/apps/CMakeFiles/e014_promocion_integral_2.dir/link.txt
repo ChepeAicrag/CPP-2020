@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e014_promocion_integral_2.dir/e014_promocion_integral_2.cpp.o -o e014_promocion_integral_2 

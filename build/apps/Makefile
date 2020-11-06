@@ -130,94 +130,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-apps/CMakeFiles/e008_typebool.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e008_typebool.dir/rule
-.PHONY : apps/CMakeFiles/e008_typebool.dir/rule
+apps/CMakeFiles/e017_casting_2.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e017_casting_2.dir/rule
+.PHONY : apps/CMakeFiles/e017_casting_2.dir/rule
 
 # Convenience name for target.
-e008_typebool: apps/CMakeFiles/e008_typebool.dir/rule
+e017_casting_2: apps/CMakeFiles/e017_casting_2.dir/rule
 
-.PHONY : e008_typebool
+.PHONY : e017_casting_2
 
 # fast build rule for target.
-e008_typebool/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
-.PHONY : e008_typebool/fast
+e017_casting_2/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/build
+.PHONY : e017_casting_2/fast
 
 # Convenience name for target.
-apps/CMakeFiles/e002_typechar.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e002_typechar.dir/rule
-.PHONY : apps/CMakeFiles/e002_typechar.dir/rule
+apps/CMakeFiles/e003_typechar16.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e003_typechar16.dir/rule
+.PHONY : apps/CMakeFiles/e003_typechar16.dir/rule
 
 # Convenience name for target.
-e002_typechar: apps/CMakeFiles/e002_typechar.dir/rule
+e003_typechar16: apps/CMakeFiles/e003_typechar16.dir/rule
 
-.PHONY : e002_typechar
+.PHONY : e003_typechar16
 
 # fast build rule for target.
-e002_typechar/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
-.PHONY : e002_typechar/fast
-
-# Convenience name for target.
-apps/CMakeFiles/e007_typefloat.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e007_typefloat.dir/rule
-.PHONY : apps/CMakeFiles/e007_typefloat.dir/rule
-
-# Convenience name for target.
-e007_typefloat: apps/CMakeFiles/e007_typefloat.dir/rule
-
-.PHONY : e007_typefloat
-
-# fast build rule for target.
-e007_typefloat/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
-.PHONY : e007_typefloat/fast
-
-# Convenience name for target.
-apps/CMakeFiles/e001_holamundo.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e001_holamundo.dir/rule
-.PHONY : apps/CMakeFiles/e001_holamundo.dir/rule
-
-# Convenience name for target.
-e001_holamundo: apps/CMakeFiles/e001_holamundo.dir/rule
-
-.PHONY : e001_holamundo
-
-# fast build rule for target.
-e001_holamundo/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
-.PHONY : e001_holamundo/fast
-
-# Convenience name for target.
-apps/CMakeFiles/e005_typesignedint.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e005_typesignedint.dir/rule
-.PHONY : apps/CMakeFiles/e005_typesignedint.dir/rule
-
-# Convenience name for target.
-e005_typesignedint: apps/CMakeFiles/e005_typesignedint.dir/rule
-
-.PHONY : e005_typesignedint
-
-# fast build rule for target.
-e005_typesignedint/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
-.PHONY : e005_typesignedint/fast
-
-# Convenience name for target.
-apps/CMakeFiles/e004_typeint.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e004_typeint.dir/rule
-.PHONY : apps/CMakeFiles/e004_typeint.dir/rule
-
-# Convenience name for target.
-e004_typeint: apps/CMakeFiles/e004_typeint.dir/rule
-
-.PHONY : e004_typeint
-
-# fast build rule for target.
-e004_typeint/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
-.PHONY : e004_typeint/fast
+e003_typechar16/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
+.PHONY : e003_typechar16/fast
 
 # Convenience name for target.
 apps/CMakeFiles/e006_typeunsignedint.dir/rule:
@@ -235,19 +175,244 @@ e006_typeunsignedint/fast:
 .PHONY : e006_typeunsignedint/fast
 
 # Convenience name for target.
-apps/CMakeFiles/e003_typechar16.dir/rule:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e003_typechar16.dir/rule
-.PHONY : apps/CMakeFiles/e003_typechar16.dir/rule
+apps/CMakeFiles/e004_typeint.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e004_typeint.dir/rule
+.PHONY : apps/CMakeFiles/e004_typeint.dir/rule
 
 # Convenience name for target.
-e003_typechar16: apps/CMakeFiles/e003_typechar16.dir/rule
+e004_typeint: apps/CMakeFiles/e004_typeint.dir/rule
 
-.PHONY : e003_typechar16
+.PHONY : e004_typeint
 
 # fast build rule for target.
-e003_typechar16/fast:
-	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
-.PHONY : e003_typechar16/fast
+e004_typeint/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
+.PHONY : e004_typeint/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e005_typesignedint.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e005_typesignedint.dir/rule
+.PHONY : apps/CMakeFiles/e005_typesignedint.dir/rule
+
+# Convenience name for target.
+e005_typesignedint: apps/CMakeFiles/e005_typesignedint.dir/rule
+
+.PHONY : e005_typesignedint
+
+# fast build rule for target.
+e005_typesignedint/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
+.PHONY : e005_typesignedint/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e001_holamundo.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e001_holamundo.dir/rule
+.PHONY : apps/CMakeFiles/e001_holamundo.dir/rule
+
+# Convenience name for target.
+e001_holamundo: apps/CMakeFiles/e001_holamundo.dir/rule
+
+.PHONY : e001_holamundo
+
+# fast build rule for target.
+e001_holamundo/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
+.PHONY : e001_holamundo/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e007_typefloat.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e007_typefloat.dir/rule
+.PHONY : apps/CMakeFiles/e007_typefloat.dir/rule
+
+# Convenience name for target.
+e007_typefloat: apps/CMakeFiles/e007_typefloat.dir/rule
+
+.PHONY : e007_typefloat
+
+# fast build rule for target.
+e007_typefloat/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
+.PHONY : e007_typefloat/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e002_typechar.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e002_typechar.dir/rule
+.PHONY : apps/CMakeFiles/e002_typechar.dir/rule
+
+# Convenience name for target.
+e002_typechar: apps/CMakeFiles/e002_typechar.dir/rule
+
+.PHONY : e002_typechar
+
+# fast build rule for target.
+e002_typechar/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
+.PHONY : e002_typechar/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e008_typebool.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e008_typebool.dir/rule
+.PHONY : apps/CMakeFiles/e008_typebool.dir/rule
+
+# Convenience name for target.
+e008_typebool: apps/CMakeFiles/e008_typebool.dir/rule
+
+.PHONY : e008_typebool
+
+# fast build rule for target.
+e008_typebool/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
+.PHONY : e008_typebool/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e018_input_output.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e018_input_output.dir/rule
+.PHONY : apps/CMakeFiles/e018_input_output.dir/rule
+
+# Convenience name for target.
+e018_input_output: apps/CMakeFiles/e018_input_output.dir/rule
+
+.PHONY : e018_input_output
+
+# fast build rule for target.
+e018_input_output/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/build
+.PHONY : e018_input_output/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e011_operadoresLogicos.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e011_operadoresLogicos.dir/rule
+.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/rule
+
+# Convenience name for target.
+e011_operadoresLogicos: apps/CMakeFiles/e011_operadoresLogicos.dir/rule
+
+.PHONY : e011_operadoresLogicos
+
+# fast build rule for target.
+e011_operadoresLogicos/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/build
+.PHONY : e011_operadoresLogicos/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e009_operadorArtimetico.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e009_operadorArtimetico.dir/rule
+.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/rule
+
+# Convenience name for target.
+e009_operadorArtimetico: apps/CMakeFiles/e009_operadorArtimetico.dir/rule
+
+.PHONY : e009_operadorArtimetico
+
+# fast build rule for target.
+e009_operadorArtimetico/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/build
+.PHONY : e009_operadorArtimetico/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/rule
+.PHONY : apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/rule
+
+# Convenience name for target.
+e010_operadoresAritmeticos_2: apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/rule
+
+.PHONY : e010_operadoresAritmeticos_2
+
+# fast build rule for target.
+e010_operadoresAritmeticos_2/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build
+.PHONY : e010_operadoresAritmeticos_2/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e012_operadoresRelacionales.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+
+# Convenience name for target.
+e012_operadoresRelacionales: apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+
+.PHONY : e012_operadoresRelacionales
+
+# fast build rule for target.
+e012_operadoresRelacionales/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/build
+.PHONY : e012_operadoresRelacionales/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e019_condiciones.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e019_condiciones.dir/rule
+.PHONY : apps/CMakeFiles/e019_condiciones.dir/rule
+
+# Convenience name for target.
+e019_condiciones: apps/CMakeFiles/e019_condiciones.dir/rule
+
+.PHONY : e019_condiciones
+
+# fast build rule for target.
+e019_condiciones/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/build
+.PHONY : e019_condiciones/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e014_promocion_integral_2.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e014_promocion_integral_2.dir/rule
+.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/rule
+
+# Convenience name for target.
+e014_promocion_integral_2: apps/CMakeFiles/e014_promocion_integral_2.dir/rule
+
+.PHONY : e014_promocion_integral_2
+
+# fast build rule for target.
+e014_promocion_integral_2/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/build
+.PHONY : e014_promocion_integral_2/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e016_casting.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e016_casting.dir/rule
+.PHONY : apps/CMakeFiles/e016_casting.dir/rule
+
+# Convenience name for target.
+e016_casting: apps/CMakeFiles/e016_casting.dir/rule
+
+.PHONY : e016_casting
+
+# fast build rule for target.
+e016_casting/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
+.PHONY : e016_casting/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e013_promocion_integral.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e013_promocion_integral.dir/rule
+.PHONY : apps/CMakeFiles/e013_promocion_integral.dir/rule
+
+# Convenience name for target.
+e013_promocion_integral: apps/CMakeFiles/e013_promocion_integral.dir/rule
+
+.PHONY : e013_promocion_integral
+
+# fast build rule for target.
+e013_promocion_integral/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/build
+.PHONY : e013_promocion_integral/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e015_promocion_integral_3.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e015_promocion_integral_3.dir/rule
+.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/rule
+
+# Convenience name for target.
+e015_promocion_integral_3: apps/CMakeFiles/e015_promocion_integral_3.dir/rule
+
+.PHONY : e015_promocion_integral_3
+
+# fast build rule for target.
+e015_promocion_integral_3/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/build
+.PHONY : e015_promocion_integral_3/fast
 
 e001_holamundo.o: e001_holamundo.cpp.o
 
@@ -465,6 +630,303 @@ e008_typebool.cpp.s:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/e008_typebool.cpp.s
 .PHONY : e008_typebool.cpp.s
 
+e009_operadorArtimetico.o: e009_operadorArtimetico.cpp.o
+
+.PHONY : e009_operadorArtimetico.o
+
+# target to build an object file
+e009_operadorArtimetico.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/e009_operadorArtimetico.cpp.o
+.PHONY : e009_operadorArtimetico.cpp.o
+
+e009_operadorArtimetico.i: e009_operadorArtimetico.cpp.i
+
+.PHONY : e009_operadorArtimetico.i
+
+# target to preprocess a source file
+e009_operadorArtimetico.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/e009_operadorArtimetico.cpp.i
+.PHONY : e009_operadorArtimetico.cpp.i
+
+e009_operadorArtimetico.s: e009_operadorArtimetico.cpp.s
+
+.PHONY : e009_operadorArtimetico.s
+
+# target to generate assembly for a file
+e009_operadorArtimetico.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/e009_operadorArtimetico.cpp.s
+.PHONY : e009_operadorArtimetico.cpp.s
+
+e010_operadoresAritmeticos_2.o: e010_operadoresAritmeticos_2.cpp.o
+
+.PHONY : e010_operadoresAritmeticos_2.o
+
+# target to build an object file
+e010_operadoresAritmeticos_2.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/e010_operadoresAritmeticos_2.cpp.o
+.PHONY : e010_operadoresAritmeticos_2.cpp.o
+
+e010_operadoresAritmeticos_2.i: e010_operadoresAritmeticos_2.cpp.i
+
+.PHONY : e010_operadoresAritmeticos_2.i
+
+# target to preprocess a source file
+e010_operadoresAritmeticos_2.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/e010_operadoresAritmeticos_2.cpp.i
+.PHONY : e010_operadoresAritmeticos_2.cpp.i
+
+e010_operadoresAritmeticos_2.s: e010_operadoresAritmeticos_2.cpp.s
+
+.PHONY : e010_operadoresAritmeticos_2.s
+
+# target to generate assembly for a file
+e010_operadoresAritmeticos_2.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/e010_operadoresAritmeticos_2.cpp.s
+.PHONY : e010_operadoresAritmeticos_2.cpp.s
+
+e011_operadoresLogicos.o: e011_operadoresLogicos.cpp.o
+
+.PHONY : e011_operadoresLogicos.o
+
+# target to build an object file
+e011_operadoresLogicos.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/e011_operadoresLogicos.cpp.o
+.PHONY : e011_operadoresLogicos.cpp.o
+
+e011_operadoresLogicos.i: e011_operadoresLogicos.cpp.i
+
+.PHONY : e011_operadoresLogicos.i
+
+# target to preprocess a source file
+e011_operadoresLogicos.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/e011_operadoresLogicos.cpp.i
+.PHONY : e011_operadoresLogicos.cpp.i
+
+e011_operadoresLogicos.s: e011_operadoresLogicos.cpp.s
+
+.PHONY : e011_operadoresLogicos.s
+
+# target to generate assembly for a file
+e011_operadoresLogicos.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/e011_operadoresLogicos.cpp.s
+.PHONY : e011_operadoresLogicos.cpp.s
+
+e012_operadoresRelacionales.o: e012_operadoresRelacionales.cpp.o
+
+.PHONY : e012_operadoresRelacionales.o
+
+# target to build an object file
+e012_operadoresRelacionales.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/e012_operadoresRelacionales.cpp.o
+.PHONY : e012_operadoresRelacionales.cpp.o
+
+e012_operadoresRelacionales.i: e012_operadoresRelacionales.cpp.i
+
+.PHONY : e012_operadoresRelacionales.i
+
+# target to preprocess a source file
+e012_operadoresRelacionales.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/e012_operadoresRelacionales.cpp.i
+.PHONY : e012_operadoresRelacionales.cpp.i
+
+e012_operadoresRelacionales.s: e012_operadoresRelacionales.cpp.s
+
+.PHONY : e012_operadoresRelacionales.s
+
+# target to generate assembly for a file
+e012_operadoresRelacionales.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/e012_operadoresRelacionales.cpp.s
+.PHONY : e012_operadoresRelacionales.cpp.s
+
+e013_promocion_integral.o: e013_promocion_integral.cpp.o
+
+.PHONY : e013_promocion_integral.o
+
+# target to build an object file
+e013_promocion_integral.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/e013_promocion_integral.cpp.o
+.PHONY : e013_promocion_integral.cpp.o
+
+e013_promocion_integral.i: e013_promocion_integral.cpp.i
+
+.PHONY : e013_promocion_integral.i
+
+# target to preprocess a source file
+e013_promocion_integral.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/e013_promocion_integral.cpp.i
+.PHONY : e013_promocion_integral.cpp.i
+
+e013_promocion_integral.s: e013_promocion_integral.cpp.s
+
+.PHONY : e013_promocion_integral.s
+
+# target to generate assembly for a file
+e013_promocion_integral.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/e013_promocion_integral.cpp.s
+.PHONY : e013_promocion_integral.cpp.s
+
+e014_promocion_integral_2.o: e014_promocion_integral_2.cpp.o
+
+.PHONY : e014_promocion_integral_2.o
+
+# target to build an object file
+e014_promocion_integral_2.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/e014_promocion_integral_2.cpp.o
+.PHONY : e014_promocion_integral_2.cpp.o
+
+e014_promocion_integral_2.i: e014_promocion_integral_2.cpp.i
+
+.PHONY : e014_promocion_integral_2.i
+
+# target to preprocess a source file
+e014_promocion_integral_2.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/e014_promocion_integral_2.cpp.i
+.PHONY : e014_promocion_integral_2.cpp.i
+
+e014_promocion_integral_2.s: e014_promocion_integral_2.cpp.s
+
+.PHONY : e014_promocion_integral_2.s
+
+# target to generate assembly for a file
+e014_promocion_integral_2.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/e014_promocion_integral_2.cpp.s
+.PHONY : e014_promocion_integral_2.cpp.s
+
+e015_promocion_integral_3.o: e015_promocion_integral_3.cpp.o
+
+.PHONY : e015_promocion_integral_3.o
+
+# target to build an object file
+e015_promocion_integral_3.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/e015_promocion_integral_3.cpp.o
+.PHONY : e015_promocion_integral_3.cpp.o
+
+e015_promocion_integral_3.i: e015_promocion_integral_3.cpp.i
+
+.PHONY : e015_promocion_integral_3.i
+
+# target to preprocess a source file
+e015_promocion_integral_3.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/e015_promocion_integral_3.cpp.i
+.PHONY : e015_promocion_integral_3.cpp.i
+
+e015_promocion_integral_3.s: e015_promocion_integral_3.cpp.s
+
+.PHONY : e015_promocion_integral_3.s
+
+# target to generate assembly for a file
+e015_promocion_integral_3.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/e015_promocion_integral_3.cpp.s
+.PHONY : e015_promocion_integral_3.cpp.s
+
+e016_casting.o: e016_casting.cpp.o
+
+.PHONY : e016_casting.o
+
+# target to build an object file
+e016_casting.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/e016_casting.cpp.o
+.PHONY : e016_casting.cpp.o
+
+e016_casting.i: e016_casting.cpp.i
+
+.PHONY : e016_casting.i
+
+# target to preprocess a source file
+e016_casting.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/e016_casting.cpp.i
+.PHONY : e016_casting.cpp.i
+
+e016_casting.s: e016_casting.cpp.s
+
+.PHONY : e016_casting.s
+
+# target to generate assembly for a file
+e016_casting.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/e016_casting.cpp.s
+.PHONY : e016_casting.cpp.s
+
+e017_casting_2.o: e017_casting_2.cpp.o
+
+.PHONY : e017_casting_2.o
+
+# target to build an object file
+e017_casting_2.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/e017_casting_2.cpp.o
+.PHONY : e017_casting_2.cpp.o
+
+e017_casting_2.i: e017_casting_2.cpp.i
+
+.PHONY : e017_casting_2.i
+
+# target to preprocess a source file
+e017_casting_2.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/e017_casting_2.cpp.i
+.PHONY : e017_casting_2.cpp.i
+
+e017_casting_2.s: e017_casting_2.cpp.s
+
+.PHONY : e017_casting_2.s
+
+# target to generate assembly for a file
+e017_casting_2.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/e017_casting_2.cpp.s
+.PHONY : e017_casting_2.cpp.s
+
+e018_input_output.o: e018_input_output.cpp.o
+
+.PHONY : e018_input_output.o
+
+# target to build an object file
+e018_input_output.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/e018_input_output.cpp.o
+.PHONY : e018_input_output.cpp.o
+
+e018_input_output.i: e018_input_output.cpp.i
+
+.PHONY : e018_input_output.i
+
+# target to preprocess a source file
+e018_input_output.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/e018_input_output.cpp.i
+.PHONY : e018_input_output.cpp.i
+
+e018_input_output.s: e018_input_output.cpp.s
+
+.PHONY : e018_input_output.s
+
+# target to generate assembly for a file
+e018_input_output.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/e018_input_output.cpp.s
+.PHONY : e018_input_output.cpp.s
+
+e019_condiciones.o: e019_condiciones.cpp.o
+
+.PHONY : e019_condiciones.o
+
+# target to build an object file
+e019_condiciones.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/e019_condiciones.cpp.o
+.PHONY : e019_condiciones.cpp.o
+
+e019_condiciones.i: e019_condiciones.cpp.i
+
+.PHONY : e019_condiciones.i
+
+# target to preprocess a source file
+e019_condiciones.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/e019_condiciones.cpp.i
+.PHONY : e019_condiciones.cpp.i
+
+e019_condiciones.s: e019_condiciones.cpp.s
+
+.PHONY : e019_condiciones.s
+
+# target to generate assembly for a file
+e019_condiciones.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/e019_condiciones.cpp.s
+.PHONY : e019_condiciones.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -481,6 +943,17 @@ help:
 	@echo "... e006_typeunsignedint"
 	@echo "... e007_typefloat"
 	@echo "... e008_typebool"
+	@echo "... e009_operadorArtimetico"
+	@echo "... e010_operadoresAritmeticos_2"
+	@echo "... e011_operadoresLogicos"
+	@echo "... e012_operadoresRelacionales"
+	@echo "... e013_promocion_integral"
+	@echo "... e014_promocion_integral_2"
+	@echo "... e015_promocion_integral_3"
+	@echo "... e016_casting"
+	@echo "... e017_casting_2"
+	@echo "... e018_input_output"
+	@echo "... e019_condiciones"
 	@echo "... e001_holamundo.o"
 	@echo "... e001_holamundo.i"
 	@echo "... e001_holamundo.s"
@@ -505,6 +978,39 @@ help:
 	@echo "... e008_typebool.o"
 	@echo "... e008_typebool.i"
 	@echo "... e008_typebool.s"
+	@echo "... e009_operadorArtimetico.o"
+	@echo "... e009_operadorArtimetico.i"
+	@echo "... e009_operadorArtimetico.s"
+	@echo "... e010_operadoresAritmeticos_2.o"
+	@echo "... e010_operadoresAritmeticos_2.i"
+	@echo "... e010_operadoresAritmeticos_2.s"
+	@echo "... e011_operadoresLogicos.o"
+	@echo "... e011_operadoresLogicos.i"
+	@echo "... e011_operadoresLogicos.s"
+	@echo "... e012_operadoresRelacionales.o"
+	@echo "... e012_operadoresRelacionales.i"
+	@echo "... e012_operadoresRelacionales.s"
+	@echo "... e013_promocion_integral.o"
+	@echo "... e013_promocion_integral.i"
+	@echo "... e013_promocion_integral.s"
+	@echo "... e014_promocion_integral_2.o"
+	@echo "... e014_promocion_integral_2.i"
+	@echo "... e014_promocion_integral_2.s"
+	@echo "... e015_promocion_integral_3.o"
+	@echo "... e015_promocion_integral_3.i"
+	@echo "... e015_promocion_integral_3.s"
+	@echo "... e016_casting.o"
+	@echo "... e016_casting.i"
+	@echo "... e016_casting.s"
+	@echo "... e017_casting_2.o"
+	@echo "... e017_casting_2.i"
+	@echo "... e017_casting_2.s"
+	@echo "... e018_input_output.o"
+	@echo "... e018_input_output.i"
+	@echo "... e018_input_output.s"
+	@echo "... e019_condiciones.o"
+	@echo "... e019_condiciones.i"
+	@echo "... e019_condiciones.s"
 .PHONY : help
 
 

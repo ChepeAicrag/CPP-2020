@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e016_casting.dir/e016_casting.cpp.o -o e016_casting 
