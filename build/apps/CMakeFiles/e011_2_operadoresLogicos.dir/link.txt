@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e011_2_operadoresLogicos.dir/e011_2_operadoresLogicos.cpp.o -o e011_2_operadoresLogicos 

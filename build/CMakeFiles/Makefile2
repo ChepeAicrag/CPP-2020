@@ -90,25 +90,43 @@ clean: apps/clean
 # Directory level rules for directory apps
 
 # Recursive "all" directory target.
-apps/all: apps/CMakeFiles/e017_casting_2.dir/all
-apps/all: apps/CMakeFiles/e003_typechar16.dir/all
-apps/all: apps/CMakeFiles/e006_typeunsignedint.dir/all
-apps/all: apps/CMakeFiles/e004_typeint.dir/all
-apps/all: apps/CMakeFiles/e005_typesignedint.dir/all
-apps/all: apps/CMakeFiles/e001_holamundo.dir/all
-apps/all: apps/CMakeFiles/e007_typefloat.dir/all
-apps/all: apps/CMakeFiles/e002_typechar.dir/all
-apps/all: apps/CMakeFiles/e008_typebool.dir/all
-apps/all: apps/CMakeFiles/e018_input_output.dir/all
-apps/all: apps/CMakeFiles/e011_operadoresLogicos.dir/all
-apps/all: apps/CMakeFiles/e009_operadorArtimetico.dir/all
-apps/all: apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/all
-apps/all: apps/CMakeFiles/e012_operadoresRelacionales.dir/all
-apps/all: apps/CMakeFiles/e019_condiciones.dir/all
-apps/all: apps/CMakeFiles/e014_promocion_integral_2.dir/all
-apps/all: apps/CMakeFiles/e016_casting.dir/all
-apps/all: apps/CMakeFiles/e013_promocion_integral.dir/all
+apps/all: apps/CMakeFiles/e028_loops_3.dir/all
 apps/all: apps/CMakeFiles/e015_promocion_integral_3.dir/all
+apps/all: apps/CMakeFiles/hwk_04.dir/all
+apps/all: apps/CMakeFiles/e014_promocion_integral_2.dir/all
+apps/all: apps/CMakeFiles/e019_condiciones.dir/all
+apps/all: apps/CMakeFiles/e011_2_operadoresLogicos.dir/all
+apps/all: apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/all
+apps/all: apps/CMakeFiles/hwk_01.dir/all
+apps/all: apps/CMakeFiles/e009_operadorArtimetico.dir/all
+apps/all: apps/CMakeFiles/e018_input_output.dir/all
+apps/all: apps/CMakeFiles/e022_exampleValidacion.dir/all
+apps/all: apps/CMakeFiles/e025_switch-case_2.dir/all
+apps/all: apps/CMakeFiles/e008_typebool.dir/all
+apps/all: apps/CMakeFiles/hwk_02.dir/all
+apps/all: apps/CMakeFiles/e013_promocion_integral.dir/all
+apps/all: apps/CMakeFiles/e002_typechar.dir/all
+apps/all: apps/CMakeFiles/e001_holamundo.dir/all
+apps/all: apps/CMakeFiles/e011_operadoresLogicos.dir/all
+apps/all: apps/CMakeFiles/e027_loops_2.dir/all
+apps/all: apps/CMakeFiles/e012_operadoresRelacionales.dir/all
+apps/all: apps/CMakeFiles/e005_typesignedint.dir/all
+apps/all: apps/CMakeFiles/hwk_07.dir/all
+apps/all: apps/CMakeFiles/hwk_08.dir/all
+apps/all: apps/CMakeFiles/e024_switch-case.dir/all
+apps/all: apps/CMakeFiles/e006_typeunsignedint.dir/all
+apps/all: apps/CMakeFiles/e003_typechar16.dir/all
+apps/all: apps/CMakeFiles/e004_typeint.dir/all
+apps/all: apps/CMakeFiles/e016_casting.dir/all
+apps/all: apps/CMakeFiles/hwk_02_2.dir/all
+apps/all: apps/CMakeFiles/e017_casting_2.dir/all
+apps/all: apps/CMakeFiles/e023_tabulador.dir/all
+apps/all: apps/CMakeFiles/hwk_03.dir/all
+apps/all: apps/CMakeFiles/hwk_05.dir/all
+apps/all: apps/CMakeFiles/hwk_06.dir/all
+apps/all: apps/CMakeFiles/e007_typefloat.dir/all
+apps/all: apps/CMakeFiles/e021_exampleValidacion.dir/all
+apps/all: apps/CMakeFiles/e026_loops_1.dir/all
 
 .PHONY : apps/all
 
@@ -118,351 +136,207 @@ apps/preinstall:
 .PHONY : apps/preinstall
 
 # Recursive "clean" directory target.
-apps/clean: apps/CMakeFiles/e017_casting_2.dir/clean
-apps/clean: apps/CMakeFiles/e003_typechar16.dir/clean
-apps/clean: apps/CMakeFiles/e006_typeunsignedint.dir/clean
-apps/clean: apps/CMakeFiles/e004_typeint.dir/clean
-apps/clean: apps/CMakeFiles/e005_typesignedint.dir/clean
-apps/clean: apps/CMakeFiles/e001_holamundo.dir/clean
-apps/clean: apps/CMakeFiles/e007_typefloat.dir/clean
-apps/clean: apps/CMakeFiles/e002_typechar.dir/clean
-apps/clean: apps/CMakeFiles/e008_typebool.dir/clean
-apps/clean: apps/CMakeFiles/e018_input_output.dir/clean
-apps/clean: apps/CMakeFiles/e011_operadoresLogicos.dir/clean
-apps/clean: apps/CMakeFiles/e009_operadorArtimetico.dir/clean
-apps/clean: apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/clean
-apps/clean: apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
-apps/clean: apps/CMakeFiles/e019_condiciones.dir/clean
-apps/clean: apps/CMakeFiles/e014_promocion_integral_2.dir/clean
-apps/clean: apps/CMakeFiles/e016_casting.dir/clean
-apps/clean: apps/CMakeFiles/e013_promocion_integral.dir/clean
+apps/clean: apps/CMakeFiles/e028_loops_3.dir/clean
 apps/clean: apps/CMakeFiles/e015_promocion_integral_3.dir/clean
+apps/clean: apps/CMakeFiles/hwk_04.dir/clean
+apps/clean: apps/CMakeFiles/e014_promocion_integral_2.dir/clean
+apps/clean: apps/CMakeFiles/e019_condiciones.dir/clean
+apps/clean: apps/CMakeFiles/e011_2_operadoresLogicos.dir/clean
+apps/clean: apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/clean
+apps/clean: apps/CMakeFiles/hwk_01.dir/clean
+apps/clean: apps/CMakeFiles/e009_operadorArtimetico.dir/clean
+apps/clean: apps/CMakeFiles/e018_input_output.dir/clean
+apps/clean: apps/CMakeFiles/e022_exampleValidacion.dir/clean
+apps/clean: apps/CMakeFiles/e025_switch-case_2.dir/clean
+apps/clean: apps/CMakeFiles/e008_typebool.dir/clean
+apps/clean: apps/CMakeFiles/hwk_02.dir/clean
+apps/clean: apps/CMakeFiles/e013_promocion_integral.dir/clean
+apps/clean: apps/CMakeFiles/e002_typechar.dir/clean
+apps/clean: apps/CMakeFiles/e001_holamundo.dir/clean
+apps/clean: apps/CMakeFiles/e011_operadoresLogicos.dir/clean
+apps/clean: apps/CMakeFiles/e027_loops_2.dir/clean
+apps/clean: apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
+apps/clean: apps/CMakeFiles/e005_typesignedint.dir/clean
+apps/clean: apps/CMakeFiles/hwk_07.dir/clean
+apps/clean: apps/CMakeFiles/hwk_08.dir/clean
+apps/clean: apps/CMakeFiles/e024_switch-case.dir/clean
+apps/clean: apps/CMakeFiles/e006_typeunsignedint.dir/clean
+apps/clean: apps/CMakeFiles/e003_typechar16.dir/clean
+apps/clean: apps/CMakeFiles/e004_typeint.dir/clean
+apps/clean: apps/CMakeFiles/e016_casting.dir/clean
+apps/clean: apps/CMakeFiles/hwk_02_2.dir/clean
+apps/clean: apps/CMakeFiles/e017_casting_2.dir/clean
+apps/clean: apps/CMakeFiles/e023_tabulador.dir/clean
+apps/clean: apps/CMakeFiles/hwk_03.dir/clean
+apps/clean: apps/CMakeFiles/hwk_05.dir/clean
+apps/clean: apps/CMakeFiles/hwk_06.dir/clean
+apps/clean: apps/CMakeFiles/e007_typefloat.dir/clean
+apps/clean: apps/CMakeFiles/e021_exampleValidacion.dir/clean
+apps/clean: apps/CMakeFiles/e026_loops_1.dir/clean
 
 .PHONY : apps/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e017_casting_2.dir
+# Target rules for target apps/CMakeFiles/e028_loops_3.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e017_casting_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=33,34 "Built target e017_casting_2"
-.PHONY : apps/CMakeFiles/e017_casting_2.dir/all
+apps/CMakeFiles/e028_loops_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e028_loops_3.dir/build.make apps/CMakeFiles/e028_loops_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e028_loops_3.dir/build.make apps/CMakeFiles/e028_loops_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=55,56 "Built target e028_loops_3"
+.PHONY : apps/CMakeFiles/e028_loops_3.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e017_casting_2.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e028_loops_3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e017_casting_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e028_loops_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e017_casting_2.dir/rule
+.PHONY : apps/CMakeFiles/e028_loops_3.dir/rule
 
 # Convenience name for target.
-e017_casting_2: apps/CMakeFiles/e017_casting_2.dir/rule
+e028_loops_3: apps/CMakeFiles/e028_loops_3.dir/rule
 
-.PHONY : e017_casting_2
+.PHONY : e028_loops_3
 
 # clean rule for target.
-apps/CMakeFiles/e017_casting_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/clean
-.PHONY : apps/CMakeFiles/e017_casting_2.dir/clean
+apps/CMakeFiles/e028_loops_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e028_loops_3.dir/build.make apps/CMakeFiles/e028_loops_3.dir/clean
+.PHONY : apps/CMakeFiles/e028_loops_3.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e003_typechar16.dir
+# Target rules for target apps/CMakeFiles/e015_promocion_integral_3.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e003_typechar16.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=5,6 "Built target e003_typechar16"
-.PHONY : apps/CMakeFiles/e003_typechar16.dir/all
+apps/CMakeFiles/e015_promocion_integral_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=31,32 "Built target e015_promocion_integral_3"
+.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e003_typechar16.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e015_promocion_integral_3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e003_typechar16.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e015_promocion_integral_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e003_typechar16.dir/rule
+.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/rule
 
 # Convenience name for target.
-e003_typechar16: apps/CMakeFiles/e003_typechar16.dir/rule
+e015_promocion_integral_3: apps/CMakeFiles/e015_promocion_integral_3.dir/rule
 
-.PHONY : e003_typechar16
+.PHONY : e015_promocion_integral_3
 
 # clean rule for target.
-apps/CMakeFiles/e003_typechar16.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/clean
-.PHONY : apps/CMakeFiles/e003_typechar16.dir/clean
+apps/CMakeFiles/e015_promocion_integral_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/clean
+.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e006_typeunsignedint.dir
+# Target rules for target apps/CMakeFiles/hwk_04.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e006_typeunsignedint.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=11,12 "Built target e006_typeunsignedint"
-.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/all
+apps/CMakeFiles/hwk_04.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_04.dir/build.make apps/CMakeFiles/hwk_04.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_04.dir/build.make apps/CMakeFiles/hwk_04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=65,66 "Built target hwk_04"
+.PHONY : apps/CMakeFiles/hwk_04.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e006_typeunsignedint.dir/rule: cmake_check_build_system
+apps/CMakeFiles/hwk_04.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e006_typeunsignedint.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/rule
+.PHONY : apps/CMakeFiles/hwk_04.dir/rule
 
 # Convenience name for target.
-e006_typeunsignedint: apps/CMakeFiles/e006_typeunsignedint.dir/rule
+hwk_04: apps/CMakeFiles/hwk_04.dir/rule
 
-.PHONY : e006_typeunsignedint
+.PHONY : hwk_04
 
 # clean rule for target.
-apps/CMakeFiles/e006_typeunsignedint.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/clean
-.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/clean
+apps/CMakeFiles/hwk_04.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_04.dir/build.make apps/CMakeFiles/hwk_04.dir/clean
+.PHONY : apps/CMakeFiles/hwk_04.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e004_typeint.dir
+# Target rules for target apps/CMakeFiles/e014_promocion_integral_2.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e004_typeint.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=7,8 "Built target e004_typeint"
-.PHONY : apps/CMakeFiles/e004_typeint.dir/all
+apps/CMakeFiles/e014_promocion_integral_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=29,30 "Built target e014_promocion_integral_2"
+.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e004_typeint.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e014_promocion_integral_2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e004_typeint.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e014_promocion_integral_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e004_typeint.dir/rule
+.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/rule
 
 # Convenience name for target.
-e004_typeint: apps/CMakeFiles/e004_typeint.dir/rule
+e014_promocion_integral_2: apps/CMakeFiles/e014_promocion_integral_2.dir/rule
 
-.PHONY : e004_typeint
+.PHONY : e014_promocion_integral_2
 
 # clean rule for target.
-apps/CMakeFiles/e004_typeint.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/clean
-.PHONY : apps/CMakeFiles/e004_typeint.dir/clean
+apps/CMakeFiles/e014_promocion_integral_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/clean
+.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e005_typesignedint.dir
+# Target rules for target apps/CMakeFiles/e019_condiciones.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e005_typesignedint.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=9,10 "Built target e005_typesignedint"
-.PHONY : apps/CMakeFiles/e005_typesignedint.dir/all
+apps/CMakeFiles/e019_condiciones.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=39,40 "Built target e019_condiciones"
+.PHONY : apps/CMakeFiles/e019_condiciones.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e005_typesignedint.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e019_condiciones.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e005_typesignedint.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e019_condiciones.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e005_typesignedint.dir/rule
+.PHONY : apps/CMakeFiles/e019_condiciones.dir/rule
 
 # Convenience name for target.
-e005_typesignedint: apps/CMakeFiles/e005_typesignedint.dir/rule
+e019_condiciones: apps/CMakeFiles/e019_condiciones.dir/rule
 
-.PHONY : e005_typesignedint
+.PHONY : e019_condiciones
 
 # clean rule for target.
-apps/CMakeFiles/e005_typesignedint.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/clean
-.PHONY : apps/CMakeFiles/e005_typesignedint.dir/clean
+apps/CMakeFiles/e019_condiciones.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/clean
+.PHONY : apps/CMakeFiles/e019_condiciones.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e001_holamundo.dir
+# Target rules for target apps/CMakeFiles/e011_2_operadoresLogicos.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e001_holamundo.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=1,2 "Built target e001_holamundo"
-.PHONY : apps/CMakeFiles/e001_holamundo.dir/all
+apps/CMakeFiles/e011_2_operadoresLogicos.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_2_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_2_operadoresLogicos.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_2_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_2_operadoresLogicos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=21,22 "Built target e011_2_operadoresLogicos"
+.PHONY : apps/CMakeFiles/e011_2_operadoresLogicos.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e001_holamundo.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e011_2_operadoresLogicos.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e001_holamundo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e011_2_operadoresLogicos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e001_holamundo.dir/rule
+.PHONY : apps/CMakeFiles/e011_2_operadoresLogicos.dir/rule
 
 # Convenience name for target.
-e001_holamundo: apps/CMakeFiles/e001_holamundo.dir/rule
+e011_2_operadoresLogicos: apps/CMakeFiles/e011_2_operadoresLogicos.dir/rule
 
-.PHONY : e001_holamundo
-
-# clean rule for target.
-apps/CMakeFiles/e001_holamundo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/clean
-.PHONY : apps/CMakeFiles/e001_holamundo.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e007_typefloat.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e007_typefloat.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=13,14 "Built target e007_typefloat"
-.PHONY : apps/CMakeFiles/e007_typefloat.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e007_typefloat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e007_typefloat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e007_typefloat.dir/rule
-
-# Convenience name for target.
-e007_typefloat: apps/CMakeFiles/e007_typefloat.dir/rule
-
-.PHONY : e007_typefloat
+.PHONY : e011_2_operadoresLogicos
 
 # clean rule for target.
-apps/CMakeFiles/e007_typefloat.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/clean
-.PHONY : apps/CMakeFiles/e007_typefloat.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e002_typechar.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e002_typechar.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=3,4 "Built target e002_typechar"
-.PHONY : apps/CMakeFiles/e002_typechar.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e002_typechar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e002_typechar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e002_typechar.dir/rule
-
-# Convenience name for target.
-e002_typechar: apps/CMakeFiles/e002_typechar.dir/rule
-
-.PHONY : e002_typechar
-
-# clean rule for target.
-apps/CMakeFiles/e002_typechar.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/clean
-.PHONY : apps/CMakeFiles/e002_typechar.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e008_typebool.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e008_typebool.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=15,16 "Built target e008_typebool"
-.PHONY : apps/CMakeFiles/e008_typebool.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e008_typebool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e008_typebool.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e008_typebool.dir/rule
-
-# Convenience name for target.
-e008_typebool: apps/CMakeFiles/e008_typebool.dir/rule
-
-.PHONY : e008_typebool
-
-# clean rule for target.
-apps/CMakeFiles/e008_typebool.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/clean
-.PHONY : apps/CMakeFiles/e008_typebool.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e018_input_output.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e018_input_output.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=35,36 "Built target e018_input_output"
-.PHONY : apps/CMakeFiles/e018_input_output.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e018_input_output.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e018_input_output.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e018_input_output.dir/rule
-
-# Convenience name for target.
-e018_input_output: apps/CMakeFiles/e018_input_output.dir/rule
-
-.PHONY : e018_input_output
-
-# clean rule for target.
-apps/CMakeFiles/e018_input_output.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/clean
-.PHONY : apps/CMakeFiles/e018_input_output.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e011_operadoresLogicos.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e011_operadoresLogicos.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=21,22 "Built target e011_operadoresLogicos"
-.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e011_operadoresLogicos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e011_operadoresLogicos.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/rule
-
-# Convenience name for target.
-e011_operadoresLogicos: apps/CMakeFiles/e011_operadoresLogicos.dir/rule
-
-.PHONY : e011_operadoresLogicos
-
-# clean rule for target.
-apps/CMakeFiles/e011_operadoresLogicos.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/clean
-.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/clean
-
-#=============================================================================
-# Target rules for target apps/CMakeFiles/e009_operadorArtimetico.dir
-
-# All Build rule for target.
-apps/CMakeFiles/e009_operadorArtimetico.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=17,18 "Built target e009_operadorArtimetico"
-.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/all
-
-# Build rule for subdir invocation for target.
-apps/CMakeFiles/e009_operadorArtimetico.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e009_operadorArtimetico.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/rule
-
-# Convenience name for target.
-e009_operadorArtimetico: apps/CMakeFiles/e009_operadorArtimetico.dir/rule
-
-.PHONY : e009_operadorArtimetico
-
-# clean rule for target.
-apps/CMakeFiles/e009_operadorArtimetico.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/clean
-.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/clean
+apps/CMakeFiles/e011_2_operadoresLogicos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_2_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_2_operadoresLogicos.dir/clean
+.PHONY : apps/CMakeFiles/e011_2_operadoresLogicos.dir/clean
 
 #=============================================================================
 # Target rules for target apps/CMakeFiles/e010_operadoresAritmeticos_2.dir
@@ -492,112 +366,193 @@ apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/clean:
 .PHONY : apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e012_operadoresRelacionales.dir
+# Target rules for target apps/CMakeFiles/hwk_01.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e012_operadoresRelacionales.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=23,24 "Built target e012_operadoresRelacionales"
-.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/all
+apps/CMakeFiles/hwk_01.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_01.dir/build.make apps/CMakeFiles/hwk_01.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_01.dir/build.make apps/CMakeFiles/hwk_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=57,58 "Built target hwk_01"
+.PHONY : apps/CMakeFiles/hwk_01.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e012_operadoresRelacionales.dir/rule: cmake_check_build_system
+apps/CMakeFiles/hwk_01.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e012_operadoresRelacionales.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+.PHONY : apps/CMakeFiles/hwk_01.dir/rule
 
 # Convenience name for target.
-e012_operadoresRelacionales: apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+hwk_01: apps/CMakeFiles/hwk_01.dir/rule
 
-.PHONY : e012_operadoresRelacionales
+.PHONY : hwk_01
 
 # clean rule for target.
-apps/CMakeFiles/e012_operadoresRelacionales.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
-.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
+apps/CMakeFiles/hwk_01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_01.dir/build.make apps/CMakeFiles/hwk_01.dir/clean
+.PHONY : apps/CMakeFiles/hwk_01.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e019_condiciones.dir
+# Target rules for target apps/CMakeFiles/e009_operadorArtimetico.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e019_condiciones.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=37,38 "Built target e019_condiciones"
-.PHONY : apps/CMakeFiles/e019_condiciones.dir/all
+apps/CMakeFiles/e009_operadorArtimetico.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=17,18 "Built target e009_operadorArtimetico"
+.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e019_condiciones.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e009_operadorArtimetico.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e019_condiciones.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e009_operadorArtimetico.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e019_condiciones.dir/rule
+.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/rule
 
 # Convenience name for target.
-e019_condiciones: apps/CMakeFiles/e019_condiciones.dir/rule
+e009_operadorArtimetico: apps/CMakeFiles/e009_operadorArtimetico.dir/rule
 
-.PHONY : e019_condiciones
+.PHONY : e009_operadorArtimetico
 
 # clean rule for target.
-apps/CMakeFiles/e019_condiciones.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/clean
-.PHONY : apps/CMakeFiles/e019_condiciones.dir/clean
+apps/CMakeFiles/e009_operadorArtimetico.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/clean
+.PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e014_promocion_integral_2.dir
+# Target rules for target apps/CMakeFiles/e018_input_output.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e014_promocion_integral_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=27,28 "Built target e014_promocion_integral_2"
-.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/all
+apps/CMakeFiles/e018_input_output.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=37,38 "Built target e018_input_output"
+.PHONY : apps/CMakeFiles/e018_input_output.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e014_promocion_integral_2.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e018_input_output.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e014_promocion_integral_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e018_input_output.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/rule
+.PHONY : apps/CMakeFiles/e018_input_output.dir/rule
 
 # Convenience name for target.
-e014_promocion_integral_2: apps/CMakeFiles/e014_promocion_integral_2.dir/rule
+e018_input_output: apps/CMakeFiles/e018_input_output.dir/rule
 
-.PHONY : e014_promocion_integral_2
+.PHONY : e018_input_output
 
 # clean rule for target.
-apps/CMakeFiles/e014_promocion_integral_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e014_promocion_integral_2.dir/build.make apps/CMakeFiles/e014_promocion_integral_2.dir/clean
-.PHONY : apps/CMakeFiles/e014_promocion_integral_2.dir/clean
+apps/CMakeFiles/e018_input_output.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/clean
+.PHONY : apps/CMakeFiles/e018_input_output.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e016_casting.dir
+# Target rules for target apps/CMakeFiles/e022_exampleValidacion.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e016_casting.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=31,32 "Built target e016_casting"
-.PHONY : apps/CMakeFiles/e016_casting.dir/all
+apps/CMakeFiles/e022_exampleValidacion.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e022_exampleValidacion.dir/build.make apps/CMakeFiles/e022_exampleValidacion.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e022_exampleValidacion.dir/build.make apps/CMakeFiles/e022_exampleValidacion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=43,44 "Built target e022_exampleValidacion"
+.PHONY : apps/CMakeFiles/e022_exampleValidacion.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e016_casting.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e022_exampleValidacion.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e016_casting.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e022_exampleValidacion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e016_casting.dir/rule
+.PHONY : apps/CMakeFiles/e022_exampleValidacion.dir/rule
 
 # Convenience name for target.
-e016_casting: apps/CMakeFiles/e016_casting.dir/rule
+e022_exampleValidacion: apps/CMakeFiles/e022_exampleValidacion.dir/rule
 
-.PHONY : e016_casting
+.PHONY : e022_exampleValidacion
 
 # clean rule for target.
-apps/CMakeFiles/e016_casting.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/clean
-.PHONY : apps/CMakeFiles/e016_casting.dir/clean
+apps/CMakeFiles/e022_exampleValidacion.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e022_exampleValidacion.dir/build.make apps/CMakeFiles/e022_exampleValidacion.dir/clean
+.PHONY : apps/CMakeFiles/e022_exampleValidacion.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e025_switch-case_2.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e025_switch-case_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e025_switch-case_2.dir/build.make apps/CMakeFiles/e025_switch-case_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e025_switch-case_2.dir/build.make apps/CMakeFiles/e025_switch-case_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=49,50 "Built target e025_switch-case_2"
+.PHONY : apps/CMakeFiles/e025_switch-case_2.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e025_switch-case_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e025_switch-case_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e025_switch-case_2.dir/rule
+
+# Convenience name for target.
+e025_switch-case_2: apps/CMakeFiles/e025_switch-case_2.dir/rule
+
+.PHONY : e025_switch-case_2
+
+# clean rule for target.
+apps/CMakeFiles/e025_switch-case_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e025_switch-case_2.dir/build.make apps/CMakeFiles/e025_switch-case_2.dir/clean
+.PHONY : apps/CMakeFiles/e025_switch-case_2.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e008_typebool.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e008_typebool.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=15,16 "Built target e008_typebool"
+.PHONY : apps/CMakeFiles/e008_typebool.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e008_typebool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e008_typebool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e008_typebool.dir/rule
+
+# Convenience name for target.
+e008_typebool: apps/CMakeFiles/e008_typebool.dir/rule
+
+.PHONY : e008_typebool
+
+# clean rule for target.
+apps/CMakeFiles/e008_typebool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/clean
+.PHONY : apps/CMakeFiles/e008_typebool.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_02.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_02.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02.dir/build.make apps/CMakeFiles/hwk_02.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02.dir/build.make apps/CMakeFiles/hwk_02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=59,60 "Built target hwk_02"
+.PHONY : apps/CMakeFiles/hwk_02.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_02.dir/rule
+
+# Convenience name for target.
+hwk_02: apps/CMakeFiles/hwk_02.dir/rule
+
+.PHONY : hwk_02
+
+# clean rule for target.
+apps/CMakeFiles/hwk_02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02.dir/build.make apps/CMakeFiles/hwk_02.dir/clean
+.PHONY : apps/CMakeFiles/hwk_02.dir/clean
 
 #=============================================================================
 # Target rules for target apps/CMakeFiles/e013_promocion_integral.dir
@@ -606,7 +561,7 @@ apps/CMakeFiles/e016_casting.dir/clean:
 apps/CMakeFiles/e013_promocion_integral.dir/all:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e013_promocion_integral.dir/build.make apps/CMakeFiles/e013_promocion_integral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=25,26 "Built target e013_promocion_integral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=27,28 "Built target e013_promocion_integral"
 .PHONY : apps/CMakeFiles/e013_promocion_integral.dir/all
 
 # Build rule for subdir invocation for target.
@@ -627,31 +582,598 @@ apps/CMakeFiles/e013_promocion_integral.dir/clean:
 .PHONY : apps/CMakeFiles/e013_promocion_integral.dir/clean
 
 #=============================================================================
-# Target rules for target apps/CMakeFiles/e015_promocion_integral_3.dir
+# Target rules for target apps/CMakeFiles/e002_typechar.dir
 
 # All Build rule for target.
-apps/CMakeFiles/e015_promocion_integral_3.dir/all:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=29,30 "Built target e015_promocion_integral_3"
-.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/all
+apps/CMakeFiles/e002_typechar.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=3,4 "Built target e002_typechar"
+.PHONY : apps/CMakeFiles/e002_typechar.dir/all
 
 # Build rule for subdir invocation for target.
-apps/CMakeFiles/e015_promocion_integral_3.dir/rule: cmake_check_build_system
+apps/CMakeFiles/e002_typechar.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e015_promocion_integral_3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e002_typechar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
-.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/rule
+.PHONY : apps/CMakeFiles/e002_typechar.dir/rule
 
 # Convenience name for target.
-e015_promocion_integral_3: apps/CMakeFiles/e015_promocion_integral_3.dir/rule
+e002_typechar: apps/CMakeFiles/e002_typechar.dir/rule
 
-.PHONY : e015_promocion_integral_3
+.PHONY : e002_typechar
 
 # clean rule for target.
-apps/CMakeFiles/e015_promocion_integral_3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/clean
-.PHONY : apps/CMakeFiles/e015_promocion_integral_3.dir/clean
+apps/CMakeFiles/e002_typechar.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/clean
+.PHONY : apps/CMakeFiles/e002_typechar.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e001_holamundo.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e001_holamundo.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=1,2 "Built target e001_holamundo"
+.PHONY : apps/CMakeFiles/e001_holamundo.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e001_holamundo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e001_holamundo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e001_holamundo.dir/rule
+
+# Convenience name for target.
+e001_holamundo: apps/CMakeFiles/e001_holamundo.dir/rule
+
+.PHONY : e001_holamundo
+
+# clean rule for target.
+apps/CMakeFiles/e001_holamundo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/clean
+.PHONY : apps/CMakeFiles/e001_holamundo.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e011_operadoresLogicos.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e011_operadoresLogicos.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=23,24 "Built target e011_operadoresLogicos"
+.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e011_operadoresLogicos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e011_operadoresLogicos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/rule
+
+# Convenience name for target.
+e011_operadoresLogicos: apps/CMakeFiles/e011_operadoresLogicos.dir/rule
+
+.PHONY : e011_operadoresLogicos
+
+# clean rule for target.
+apps/CMakeFiles/e011_operadoresLogicos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/clean
+.PHONY : apps/CMakeFiles/e011_operadoresLogicos.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e027_loops_2.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e027_loops_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=53,54 "Built target e027_loops_2"
+.PHONY : apps/CMakeFiles/e027_loops_2.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e027_loops_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e027_loops_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e027_loops_2.dir/rule
+
+# Convenience name for target.
+e027_loops_2: apps/CMakeFiles/e027_loops_2.dir/rule
+
+.PHONY : e027_loops_2
+
+# clean rule for target.
+apps/CMakeFiles/e027_loops_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/clean
+.PHONY : apps/CMakeFiles/e027_loops_2.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e012_operadoresRelacionales.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e012_operadoresRelacionales.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=25,26 "Built target e012_operadoresRelacionales"
+.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e012_operadoresRelacionales.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e012_operadoresRelacionales.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+
+# Convenience name for target.
+e012_operadoresRelacionales: apps/CMakeFiles/e012_operadoresRelacionales.dir/rule
+
+.PHONY : e012_operadoresRelacionales
+
+# clean rule for target.
+apps/CMakeFiles/e012_operadoresRelacionales.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
+.PHONY : apps/CMakeFiles/e012_operadoresRelacionales.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e005_typesignedint.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e005_typesignedint.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=9,10 "Built target e005_typesignedint"
+.PHONY : apps/CMakeFiles/e005_typesignedint.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e005_typesignedint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e005_typesignedint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e005_typesignedint.dir/rule
+
+# Convenience name for target.
+e005_typesignedint: apps/CMakeFiles/e005_typesignedint.dir/rule
+
+.PHONY : e005_typesignedint
+
+# clean rule for target.
+apps/CMakeFiles/e005_typesignedint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/clean
+.PHONY : apps/CMakeFiles/e005_typesignedint.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_07.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_07.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_07.dir/build.make apps/CMakeFiles/hwk_07.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_07.dir/build.make apps/CMakeFiles/hwk_07.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=71,72 "Built target hwk_07"
+.PHONY : apps/CMakeFiles/hwk_07.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_07.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_07.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_07.dir/rule
+
+# Convenience name for target.
+hwk_07: apps/CMakeFiles/hwk_07.dir/rule
+
+.PHONY : hwk_07
+
+# clean rule for target.
+apps/CMakeFiles/hwk_07.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_07.dir/build.make apps/CMakeFiles/hwk_07.dir/clean
+.PHONY : apps/CMakeFiles/hwk_07.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_08.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_08.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_08.dir/build.make apps/CMakeFiles/hwk_08.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_08.dir/build.make apps/CMakeFiles/hwk_08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=73,74 "Built target hwk_08"
+.PHONY : apps/CMakeFiles/hwk_08.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_08.dir/rule
+
+# Convenience name for target.
+hwk_08: apps/CMakeFiles/hwk_08.dir/rule
+
+.PHONY : hwk_08
+
+# clean rule for target.
+apps/CMakeFiles/hwk_08.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_08.dir/build.make apps/CMakeFiles/hwk_08.dir/clean
+.PHONY : apps/CMakeFiles/hwk_08.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e024_switch-case.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e024_switch-case.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e024_switch-case.dir/build.make apps/CMakeFiles/e024_switch-case.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e024_switch-case.dir/build.make apps/CMakeFiles/e024_switch-case.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=47,48 "Built target e024_switch-case"
+.PHONY : apps/CMakeFiles/e024_switch-case.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e024_switch-case.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e024_switch-case.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e024_switch-case.dir/rule
+
+# Convenience name for target.
+e024_switch-case: apps/CMakeFiles/e024_switch-case.dir/rule
+
+.PHONY : e024_switch-case
+
+# clean rule for target.
+apps/CMakeFiles/e024_switch-case.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e024_switch-case.dir/build.make apps/CMakeFiles/e024_switch-case.dir/clean
+.PHONY : apps/CMakeFiles/e024_switch-case.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e006_typeunsignedint.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e006_typeunsignedint.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=11,12 "Built target e006_typeunsignedint"
+.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e006_typeunsignedint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e006_typeunsignedint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/rule
+
+# Convenience name for target.
+e006_typeunsignedint: apps/CMakeFiles/e006_typeunsignedint.dir/rule
+
+.PHONY : e006_typeunsignedint
+
+# clean rule for target.
+apps/CMakeFiles/e006_typeunsignedint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/clean
+.PHONY : apps/CMakeFiles/e006_typeunsignedint.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e003_typechar16.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e003_typechar16.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=5,6 "Built target e003_typechar16"
+.PHONY : apps/CMakeFiles/e003_typechar16.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e003_typechar16.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e003_typechar16.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e003_typechar16.dir/rule
+
+# Convenience name for target.
+e003_typechar16: apps/CMakeFiles/e003_typechar16.dir/rule
+
+.PHONY : e003_typechar16
+
+# clean rule for target.
+apps/CMakeFiles/e003_typechar16.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/clean
+.PHONY : apps/CMakeFiles/e003_typechar16.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e004_typeint.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e004_typeint.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=7,8 "Built target e004_typeint"
+.PHONY : apps/CMakeFiles/e004_typeint.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e004_typeint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e004_typeint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e004_typeint.dir/rule
+
+# Convenience name for target.
+e004_typeint: apps/CMakeFiles/e004_typeint.dir/rule
+
+.PHONY : e004_typeint
+
+# clean rule for target.
+apps/CMakeFiles/e004_typeint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/clean
+.PHONY : apps/CMakeFiles/e004_typeint.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e016_casting.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e016_casting.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=33,34 "Built target e016_casting"
+.PHONY : apps/CMakeFiles/e016_casting.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e016_casting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e016_casting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e016_casting.dir/rule
+
+# Convenience name for target.
+e016_casting: apps/CMakeFiles/e016_casting.dir/rule
+
+.PHONY : e016_casting
+
+# clean rule for target.
+apps/CMakeFiles/e016_casting.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/clean
+.PHONY : apps/CMakeFiles/e016_casting.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_02_2.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_02_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02_2.dir/build.make apps/CMakeFiles/hwk_02_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02_2.dir/build.make apps/CMakeFiles/hwk_02_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=61,62 "Built target hwk_02_2"
+.PHONY : apps/CMakeFiles/hwk_02_2.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_02_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_02_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_02_2.dir/rule
+
+# Convenience name for target.
+hwk_02_2: apps/CMakeFiles/hwk_02_2.dir/rule
+
+.PHONY : hwk_02_2
+
+# clean rule for target.
+apps/CMakeFiles/hwk_02_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02_2.dir/build.make apps/CMakeFiles/hwk_02_2.dir/clean
+.PHONY : apps/CMakeFiles/hwk_02_2.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e017_casting_2.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e017_casting_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=35,36 "Built target e017_casting_2"
+.PHONY : apps/CMakeFiles/e017_casting_2.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e017_casting_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e017_casting_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e017_casting_2.dir/rule
+
+# Convenience name for target.
+e017_casting_2: apps/CMakeFiles/e017_casting_2.dir/rule
+
+.PHONY : e017_casting_2
+
+# clean rule for target.
+apps/CMakeFiles/e017_casting_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/clean
+.PHONY : apps/CMakeFiles/e017_casting_2.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e023_tabulador.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e023_tabulador.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e023_tabulador.dir/build.make apps/CMakeFiles/e023_tabulador.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e023_tabulador.dir/build.make apps/CMakeFiles/e023_tabulador.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=45,46 "Built target e023_tabulador"
+.PHONY : apps/CMakeFiles/e023_tabulador.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e023_tabulador.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e023_tabulador.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e023_tabulador.dir/rule
+
+# Convenience name for target.
+e023_tabulador: apps/CMakeFiles/e023_tabulador.dir/rule
+
+.PHONY : e023_tabulador
+
+# clean rule for target.
+apps/CMakeFiles/e023_tabulador.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e023_tabulador.dir/build.make apps/CMakeFiles/e023_tabulador.dir/clean
+.PHONY : apps/CMakeFiles/e023_tabulador.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_03.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_03.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_03.dir/build.make apps/CMakeFiles/hwk_03.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_03.dir/build.make apps/CMakeFiles/hwk_03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=63,64 "Built target hwk_03"
+.PHONY : apps/CMakeFiles/hwk_03.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_03.dir/rule
+
+# Convenience name for target.
+hwk_03: apps/CMakeFiles/hwk_03.dir/rule
+
+.PHONY : hwk_03
+
+# clean rule for target.
+apps/CMakeFiles/hwk_03.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_03.dir/build.make apps/CMakeFiles/hwk_03.dir/clean
+.PHONY : apps/CMakeFiles/hwk_03.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_05.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_05.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_05.dir/build.make apps/CMakeFiles/hwk_05.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_05.dir/build.make apps/CMakeFiles/hwk_05.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=67,68 "Built target hwk_05"
+.PHONY : apps/CMakeFiles/hwk_05.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_05.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_05.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_05.dir/rule
+
+# Convenience name for target.
+hwk_05: apps/CMakeFiles/hwk_05.dir/rule
+
+.PHONY : hwk_05
+
+# clean rule for target.
+apps/CMakeFiles/hwk_05.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_05.dir/build.make apps/CMakeFiles/hwk_05.dir/clean
+.PHONY : apps/CMakeFiles/hwk_05.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/hwk_06.dir
+
+# All Build rule for target.
+apps/CMakeFiles/hwk_06.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_06.dir/build.make apps/CMakeFiles/hwk_06.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_06.dir/build.make apps/CMakeFiles/hwk_06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=69,70 "Built target hwk_06"
+.PHONY : apps/CMakeFiles/hwk_06.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/hwk_06.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/hwk_06.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/hwk_06.dir/rule
+
+# Convenience name for target.
+hwk_06: apps/CMakeFiles/hwk_06.dir/rule
+
+.PHONY : hwk_06
+
+# clean rule for target.
+apps/CMakeFiles/hwk_06.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_06.dir/build.make apps/CMakeFiles/hwk_06.dir/clean
+.PHONY : apps/CMakeFiles/hwk_06.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e007_typefloat.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e007_typefloat.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=13,14 "Built target e007_typefloat"
+.PHONY : apps/CMakeFiles/e007_typefloat.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e007_typefloat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e007_typefloat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e007_typefloat.dir/rule
+
+# Convenience name for target.
+e007_typefloat: apps/CMakeFiles/e007_typefloat.dir/rule
+
+.PHONY : e007_typefloat
+
+# clean rule for target.
+apps/CMakeFiles/e007_typefloat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/clean
+.PHONY : apps/CMakeFiles/e007_typefloat.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e021_exampleValidacion.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e021_exampleValidacion.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e021_exampleValidacion.dir/build.make apps/CMakeFiles/e021_exampleValidacion.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e021_exampleValidacion.dir/build.make apps/CMakeFiles/e021_exampleValidacion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=41,42 "Built target e021_exampleValidacion"
+.PHONY : apps/CMakeFiles/e021_exampleValidacion.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e021_exampleValidacion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e021_exampleValidacion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e021_exampleValidacion.dir/rule
+
+# Convenience name for target.
+e021_exampleValidacion: apps/CMakeFiles/e021_exampleValidacion.dir/rule
+
+.PHONY : e021_exampleValidacion
+
+# clean rule for target.
+apps/CMakeFiles/e021_exampleValidacion.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e021_exampleValidacion.dir/build.make apps/CMakeFiles/e021_exampleValidacion.dir/clean
+.PHONY : apps/CMakeFiles/e021_exampleValidacion.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/e026_loops_1.dir
+
+# All Build rule for target.
+apps/CMakeFiles/e026_loops_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e026_loops_1.dir/build.make apps/CMakeFiles/e026_loops_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e026_loops_1.dir/build.make apps/CMakeFiles/e026_loops_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles --progress-num=51,52 "Built target e026_loops_1"
+.PHONY : apps/CMakeFiles/e026_loops_1.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/e026_loops_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e026_loops_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepeaicrag/Escritorio/CPP-2020/build/CMakeFiles 0
+.PHONY : apps/CMakeFiles/e026_loops_1.dir/rule
+
+# Convenience name for target.
+e026_loops_1: apps/CMakeFiles/e026_loops_1.dir/rule
+
+.PHONY : e026_loops_1
+
+# clean rule for target.
+apps/CMakeFiles/e026_loops_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e026_loops_1.dir/build.make apps/CMakeFiles/e026_loops_1.dir/clean
+.PHONY : apps/CMakeFiles/e026_loops_1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

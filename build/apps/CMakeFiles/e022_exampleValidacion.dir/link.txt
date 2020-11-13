@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e022_exampleValidacion.dir/e022_exampleValidacion.cpp.o -o e022_exampleValidacion 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e023_tabulador.dir/e023_tabulador.cpp.o -o e023_tabulador 

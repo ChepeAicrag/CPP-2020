@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e024_switch-case.dir/e024_switch-case.cpp.o -o e024_switch-case 

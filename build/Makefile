@@ -130,199 +130,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named e017_casting_2
+# Target rules for targets named e028_loops_3
 
 # Build rule for target.
-e017_casting_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e017_casting_2
-.PHONY : e017_casting_2
+e028_loops_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e028_loops_3
+.PHONY : e028_loops_3
 
 # fast build rule for target.
-e017_casting_2/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/build
-.PHONY : e017_casting_2/fast
+e028_loops_3/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e028_loops_3.dir/build.make apps/CMakeFiles/e028_loops_3.dir/build
+.PHONY : e028_loops_3/fast
 
 #=============================================================================
-# Target rules for targets named e003_typechar16
+# Target rules for targets named e015_promocion_integral_3
 
 # Build rule for target.
-e003_typechar16: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e003_typechar16
-.PHONY : e003_typechar16
+e015_promocion_integral_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e015_promocion_integral_3
+.PHONY : e015_promocion_integral_3
 
 # fast build rule for target.
-e003_typechar16/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
-.PHONY : e003_typechar16/fast
+e015_promocion_integral_3/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/build
+.PHONY : e015_promocion_integral_3/fast
 
 #=============================================================================
-# Target rules for targets named e006_typeunsignedint
+# Target rules for targets named hwk_04
 
 # Build rule for target.
-e006_typeunsignedint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e006_typeunsignedint
-.PHONY : e006_typeunsignedint
+hwk_04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_04
+.PHONY : hwk_04
 
 # fast build rule for target.
-e006_typeunsignedint/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/build
-.PHONY : e006_typeunsignedint/fast
-
-#=============================================================================
-# Target rules for targets named e004_typeint
-
-# Build rule for target.
-e004_typeint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e004_typeint
-.PHONY : e004_typeint
-
-# fast build rule for target.
-e004_typeint/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
-.PHONY : e004_typeint/fast
-
-#=============================================================================
-# Target rules for targets named e005_typesignedint
-
-# Build rule for target.
-e005_typesignedint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e005_typesignedint
-.PHONY : e005_typesignedint
-
-# fast build rule for target.
-e005_typesignedint/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
-.PHONY : e005_typesignedint/fast
-
-#=============================================================================
-# Target rules for targets named e001_holamundo
-
-# Build rule for target.
-e001_holamundo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e001_holamundo
-.PHONY : e001_holamundo
-
-# fast build rule for target.
-e001_holamundo/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
-.PHONY : e001_holamundo/fast
-
-#=============================================================================
-# Target rules for targets named e007_typefloat
-
-# Build rule for target.
-e007_typefloat: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e007_typefloat
-.PHONY : e007_typefloat
-
-# fast build rule for target.
-e007_typefloat/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
-.PHONY : e007_typefloat/fast
-
-#=============================================================================
-# Target rules for targets named e002_typechar
-
-# Build rule for target.
-e002_typechar: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e002_typechar
-.PHONY : e002_typechar
-
-# fast build rule for target.
-e002_typechar/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
-.PHONY : e002_typechar/fast
-
-#=============================================================================
-# Target rules for targets named e008_typebool
-
-# Build rule for target.
-e008_typebool: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e008_typebool
-.PHONY : e008_typebool
-
-# fast build rule for target.
-e008_typebool/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
-.PHONY : e008_typebool/fast
-
-#=============================================================================
-# Target rules for targets named e018_input_output
-
-# Build rule for target.
-e018_input_output: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e018_input_output
-.PHONY : e018_input_output
-
-# fast build rule for target.
-e018_input_output/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/build
-.PHONY : e018_input_output/fast
-
-#=============================================================================
-# Target rules for targets named e011_operadoresLogicos
-
-# Build rule for target.
-e011_operadoresLogicos: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e011_operadoresLogicos
-.PHONY : e011_operadoresLogicos
-
-# fast build rule for target.
-e011_operadoresLogicos/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/build
-.PHONY : e011_operadoresLogicos/fast
-
-#=============================================================================
-# Target rules for targets named e009_operadorArtimetico
-
-# Build rule for target.
-e009_operadorArtimetico: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e009_operadorArtimetico
-.PHONY : e009_operadorArtimetico
-
-# fast build rule for target.
-e009_operadorArtimetico/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/build
-.PHONY : e009_operadorArtimetico/fast
-
-#=============================================================================
-# Target rules for targets named e010_operadoresAritmeticos_2
-
-# Build rule for target.
-e010_operadoresAritmeticos_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e010_operadoresAritmeticos_2
-.PHONY : e010_operadoresAritmeticos_2
-
-# fast build rule for target.
-e010_operadoresAritmeticos_2/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build
-.PHONY : e010_operadoresAritmeticos_2/fast
-
-#=============================================================================
-# Target rules for targets named e012_operadoresRelacionales
-
-# Build rule for target.
-e012_operadoresRelacionales: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e012_operadoresRelacionales
-.PHONY : e012_operadoresRelacionales
-
-# fast build rule for target.
-e012_operadoresRelacionales/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/build
-.PHONY : e012_operadoresRelacionales/fast
-
-#=============================================================================
-# Target rules for targets named e019_condiciones
-
-# Build rule for target.
-e019_condiciones: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e019_condiciones
-.PHONY : e019_condiciones
-
-# fast build rule for target.
-e019_condiciones/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/build
-.PHONY : e019_condiciones/fast
+hwk_04/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_04.dir/build.make apps/CMakeFiles/hwk_04.dir/build
+.PHONY : hwk_04/fast
 
 #=============================================================================
 # Target rules for targets named e014_promocion_integral_2
@@ -338,17 +182,134 @@ e014_promocion_integral_2/fast:
 .PHONY : e014_promocion_integral_2/fast
 
 #=============================================================================
-# Target rules for targets named e016_casting
+# Target rules for targets named e019_condiciones
 
 # Build rule for target.
-e016_casting: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e016_casting
-.PHONY : e016_casting
+e019_condiciones: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e019_condiciones
+.PHONY : e019_condiciones
 
 # fast build rule for target.
-e016_casting/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
-.PHONY : e016_casting/fast
+e019_condiciones/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e019_condiciones.dir/build.make apps/CMakeFiles/e019_condiciones.dir/build
+.PHONY : e019_condiciones/fast
+
+#=============================================================================
+# Target rules for targets named e011_2_operadoresLogicos
+
+# Build rule for target.
+e011_2_operadoresLogicos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e011_2_operadoresLogicos
+.PHONY : e011_2_operadoresLogicos
+
+# fast build rule for target.
+e011_2_operadoresLogicos/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_2_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_2_operadoresLogicos.dir/build
+.PHONY : e011_2_operadoresLogicos/fast
+
+#=============================================================================
+# Target rules for targets named e010_operadoresAritmeticos_2
+
+# Build rule for target.
+e010_operadoresAritmeticos_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e010_operadoresAritmeticos_2
+.PHONY : e010_operadoresAritmeticos_2
+
+# fast build rule for target.
+e010_operadoresAritmeticos_2/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build.make apps/CMakeFiles/e010_operadoresAritmeticos_2.dir/build
+.PHONY : e010_operadoresAritmeticos_2/fast
+
+#=============================================================================
+# Target rules for targets named hwk_01
+
+# Build rule for target.
+hwk_01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_01
+.PHONY : hwk_01
+
+# fast build rule for target.
+hwk_01/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_01.dir/build.make apps/CMakeFiles/hwk_01.dir/build
+.PHONY : hwk_01/fast
+
+#=============================================================================
+# Target rules for targets named e009_operadorArtimetico
+
+# Build rule for target.
+e009_operadorArtimetico: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e009_operadorArtimetico
+.PHONY : e009_operadorArtimetico
+
+# fast build rule for target.
+e009_operadorArtimetico/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e009_operadorArtimetico.dir/build.make apps/CMakeFiles/e009_operadorArtimetico.dir/build
+.PHONY : e009_operadorArtimetico/fast
+
+#=============================================================================
+# Target rules for targets named e018_input_output
+
+# Build rule for target.
+e018_input_output: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e018_input_output
+.PHONY : e018_input_output
+
+# fast build rule for target.
+e018_input_output/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e018_input_output.dir/build.make apps/CMakeFiles/e018_input_output.dir/build
+.PHONY : e018_input_output/fast
+
+#=============================================================================
+# Target rules for targets named e022_exampleValidacion
+
+# Build rule for target.
+e022_exampleValidacion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e022_exampleValidacion
+.PHONY : e022_exampleValidacion
+
+# fast build rule for target.
+e022_exampleValidacion/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e022_exampleValidacion.dir/build.make apps/CMakeFiles/e022_exampleValidacion.dir/build
+.PHONY : e022_exampleValidacion/fast
+
+#=============================================================================
+# Target rules for targets named e025_switch-case_2
+
+# Build rule for target.
+e025_switch-case_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e025_switch-case_2
+.PHONY : e025_switch-case_2
+
+# fast build rule for target.
+e025_switch-case_2/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e025_switch-case_2.dir/build.make apps/CMakeFiles/e025_switch-case_2.dir/build
+.PHONY : e025_switch-case_2/fast
+
+#=============================================================================
+# Target rules for targets named e008_typebool
+
+# Build rule for target.
+e008_typebool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e008_typebool
+.PHONY : e008_typebool
+
+# fast build rule for target.
+e008_typebool/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
+.PHONY : e008_typebool/fast
+
+#=============================================================================
+# Target rules for targets named hwk_02
+
+# Build rule for target.
+hwk_02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_02
+.PHONY : hwk_02
+
+# fast build rule for target.
+hwk_02/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02.dir/build.make apps/CMakeFiles/hwk_02.dir/build
+.PHONY : hwk_02/fast
 
 #=============================================================================
 # Target rules for targets named e013_promocion_integral
@@ -364,17 +325,290 @@ e013_promocion_integral/fast:
 .PHONY : e013_promocion_integral/fast
 
 #=============================================================================
-# Target rules for targets named e015_promocion_integral_3
+# Target rules for targets named e002_typechar
 
 # Build rule for target.
-e015_promocion_integral_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e015_promocion_integral_3
-.PHONY : e015_promocion_integral_3
+e002_typechar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e002_typechar
+.PHONY : e002_typechar
 
 # fast build rule for target.
-e015_promocion_integral_3/fast:
-	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e015_promocion_integral_3.dir/build.make apps/CMakeFiles/e015_promocion_integral_3.dir/build
-.PHONY : e015_promocion_integral_3/fast
+e002_typechar/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e002_typechar.dir/build.make apps/CMakeFiles/e002_typechar.dir/build
+.PHONY : e002_typechar/fast
+
+#=============================================================================
+# Target rules for targets named e001_holamundo
+
+# Build rule for target.
+e001_holamundo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e001_holamundo
+.PHONY : e001_holamundo
+
+# fast build rule for target.
+e001_holamundo/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e001_holamundo.dir/build.make apps/CMakeFiles/e001_holamundo.dir/build
+.PHONY : e001_holamundo/fast
+
+#=============================================================================
+# Target rules for targets named e011_operadoresLogicos
+
+# Build rule for target.
+e011_operadoresLogicos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e011_operadoresLogicos
+.PHONY : e011_operadoresLogicos
+
+# fast build rule for target.
+e011_operadoresLogicos/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e011_operadoresLogicos.dir/build.make apps/CMakeFiles/e011_operadoresLogicos.dir/build
+.PHONY : e011_operadoresLogicos/fast
+
+#=============================================================================
+# Target rules for targets named e027_loops_2
+
+# Build rule for target.
+e027_loops_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e027_loops_2
+.PHONY : e027_loops_2
+
+# fast build rule for target.
+e027_loops_2/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/build
+.PHONY : e027_loops_2/fast
+
+#=============================================================================
+# Target rules for targets named e012_operadoresRelacionales
+
+# Build rule for target.
+e012_operadoresRelacionales: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e012_operadoresRelacionales
+.PHONY : e012_operadoresRelacionales
+
+# fast build rule for target.
+e012_operadoresRelacionales/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e012_operadoresRelacionales.dir/build.make apps/CMakeFiles/e012_operadoresRelacionales.dir/build
+.PHONY : e012_operadoresRelacionales/fast
+
+#=============================================================================
+# Target rules for targets named e005_typesignedint
+
+# Build rule for target.
+e005_typesignedint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e005_typesignedint
+.PHONY : e005_typesignedint
+
+# fast build rule for target.
+e005_typesignedint/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e005_typesignedint.dir/build.make apps/CMakeFiles/e005_typesignedint.dir/build
+.PHONY : e005_typesignedint/fast
+
+#=============================================================================
+# Target rules for targets named hwk_07
+
+# Build rule for target.
+hwk_07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_07
+.PHONY : hwk_07
+
+# fast build rule for target.
+hwk_07/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_07.dir/build.make apps/CMakeFiles/hwk_07.dir/build
+.PHONY : hwk_07/fast
+
+#=============================================================================
+# Target rules for targets named hwk_08
+
+# Build rule for target.
+hwk_08: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_08
+.PHONY : hwk_08
+
+# fast build rule for target.
+hwk_08/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_08.dir/build.make apps/CMakeFiles/hwk_08.dir/build
+.PHONY : hwk_08/fast
+
+#=============================================================================
+# Target rules for targets named e024_switch-case
+
+# Build rule for target.
+e024_switch-case: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e024_switch-case
+.PHONY : e024_switch-case
+
+# fast build rule for target.
+e024_switch-case/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e024_switch-case.dir/build.make apps/CMakeFiles/e024_switch-case.dir/build
+.PHONY : e024_switch-case/fast
+
+#=============================================================================
+# Target rules for targets named e006_typeunsignedint
+
+# Build rule for target.
+e006_typeunsignedint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e006_typeunsignedint
+.PHONY : e006_typeunsignedint
+
+# fast build rule for target.
+e006_typeunsignedint/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e006_typeunsignedint.dir/build.make apps/CMakeFiles/e006_typeunsignedint.dir/build
+.PHONY : e006_typeunsignedint/fast
+
+#=============================================================================
+# Target rules for targets named e003_typechar16
+
+# Build rule for target.
+e003_typechar16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e003_typechar16
+.PHONY : e003_typechar16
+
+# fast build rule for target.
+e003_typechar16/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e003_typechar16.dir/build.make apps/CMakeFiles/e003_typechar16.dir/build
+.PHONY : e003_typechar16/fast
+
+#=============================================================================
+# Target rules for targets named e004_typeint
+
+# Build rule for target.
+e004_typeint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e004_typeint
+.PHONY : e004_typeint
+
+# fast build rule for target.
+e004_typeint/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e004_typeint.dir/build.make apps/CMakeFiles/e004_typeint.dir/build
+.PHONY : e004_typeint/fast
+
+#=============================================================================
+# Target rules for targets named e016_casting
+
+# Build rule for target.
+e016_casting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e016_casting
+.PHONY : e016_casting
+
+# fast build rule for target.
+e016_casting/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
+.PHONY : e016_casting/fast
+
+#=============================================================================
+# Target rules for targets named hwk_02_2
+
+# Build rule for target.
+hwk_02_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_02_2
+.PHONY : hwk_02_2
+
+# fast build rule for target.
+hwk_02_2/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_02_2.dir/build.make apps/CMakeFiles/hwk_02_2.dir/build
+.PHONY : hwk_02_2/fast
+
+#=============================================================================
+# Target rules for targets named e017_casting_2
+
+# Build rule for target.
+e017_casting_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e017_casting_2
+.PHONY : e017_casting_2
+
+# fast build rule for target.
+e017_casting_2/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e017_casting_2.dir/build.make apps/CMakeFiles/e017_casting_2.dir/build
+.PHONY : e017_casting_2/fast
+
+#=============================================================================
+# Target rules for targets named e023_tabulador
+
+# Build rule for target.
+e023_tabulador: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e023_tabulador
+.PHONY : e023_tabulador
+
+# fast build rule for target.
+e023_tabulador/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e023_tabulador.dir/build.make apps/CMakeFiles/e023_tabulador.dir/build
+.PHONY : e023_tabulador/fast
+
+#=============================================================================
+# Target rules for targets named hwk_03
+
+# Build rule for target.
+hwk_03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_03
+.PHONY : hwk_03
+
+# fast build rule for target.
+hwk_03/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_03.dir/build.make apps/CMakeFiles/hwk_03.dir/build
+.PHONY : hwk_03/fast
+
+#=============================================================================
+# Target rules for targets named hwk_05
+
+# Build rule for target.
+hwk_05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_05
+.PHONY : hwk_05
+
+# fast build rule for target.
+hwk_05/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_05.dir/build.make apps/CMakeFiles/hwk_05.dir/build
+.PHONY : hwk_05/fast
+
+#=============================================================================
+# Target rules for targets named hwk_06
+
+# Build rule for target.
+hwk_06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hwk_06
+.PHONY : hwk_06
+
+# fast build rule for target.
+hwk_06/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/hwk_06.dir/build.make apps/CMakeFiles/hwk_06.dir/build
+.PHONY : hwk_06/fast
+
+#=============================================================================
+# Target rules for targets named e007_typefloat
+
+# Build rule for target.
+e007_typefloat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e007_typefloat
+.PHONY : e007_typefloat
+
+# fast build rule for target.
+e007_typefloat/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e007_typefloat.dir/build.make apps/CMakeFiles/e007_typefloat.dir/build
+.PHONY : e007_typefloat/fast
+
+#=============================================================================
+# Target rules for targets named e021_exampleValidacion
+
+# Build rule for target.
+e021_exampleValidacion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e021_exampleValidacion
+.PHONY : e021_exampleValidacion
+
+# fast build rule for target.
+e021_exampleValidacion/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e021_exampleValidacion.dir/build.make apps/CMakeFiles/e021_exampleValidacion.dir/build
+.PHONY : e021_exampleValidacion/fast
+
+#=============================================================================
+# Target rules for targets named e026_loops_1
+
+# Build rule for target.
+e026_loops_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e026_loops_1
+.PHONY : e026_loops_1
+
+# fast build rule for target.
+e026_loops_1/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e026_loops_1.dir/build.make apps/CMakeFiles/e026_loops_1.dir/build
+.PHONY : e026_loops_1/fast
 
 # Help Target
 help:
@@ -394,6 +628,7 @@ help:
 	@echo "... e008_typebool"
 	@echo "... e009_operadorArtimetico"
 	@echo "... e010_operadoresAritmeticos_2"
+	@echo "... e011_2_operadoresLogicos"
 	@echo "... e011_operadoresLogicos"
 	@echo "... e012_operadoresRelacionales"
 	@echo "... e013_promocion_integral"
@@ -403,6 +638,23 @@ help:
 	@echo "... e017_casting_2"
 	@echo "... e018_input_output"
 	@echo "... e019_condiciones"
+	@echo "... e021_exampleValidacion"
+	@echo "... e022_exampleValidacion"
+	@echo "... e023_tabulador"
+	@echo "... e024_switch-case"
+	@echo "... e025_switch-case_2"
+	@echo "... e026_loops_1"
+	@echo "... e027_loops_2"
+	@echo "... e028_loops_3"
+	@echo "... hwk_01"
+	@echo "... hwk_02"
+	@echo "... hwk_02_2"
+	@echo "... hwk_03"
+	@echo "... hwk_04"
+	@echo "... hwk_05"
+	@echo "... hwk_06"
+	@echo "... hwk_07"
+	@echo "... hwk_08"
 .PHONY : help
 
 

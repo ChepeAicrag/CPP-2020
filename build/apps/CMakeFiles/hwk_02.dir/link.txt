@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/hwk_02.dir/hwk_02.cpp.o -o hwk_02 
