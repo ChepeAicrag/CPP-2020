@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/chepeaicrag/Escritorio/CPP-2020/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/619/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/cmake/619/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +128,111 @@ preinstall/fast:
 depend:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+apps/CMakeFiles/e040_files.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e040_files.dir/rule
+.PHONY : apps/CMakeFiles/e040_files.dir/rule
+
+# Convenience name for target.
+e040_files: apps/CMakeFiles/e040_files.dir/rule
+
+.PHONY : e040_files
+
+# fast build rule for target.
+e040_files/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/build
+.PHONY : e040_files/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e038_var_almacenamiento.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e038_var_almacenamiento.dir/rule
+.PHONY : apps/CMakeFiles/e038_var_almacenamiento.dir/rule
+
+# Convenience name for target.
+e038_var_almacenamiento: apps/CMakeFiles/e038_var_almacenamiento.dir/rule
+
+.PHONY : e038_var_almacenamiento
+
+# fast build rule for target.
+e038_var_almacenamiento/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e038_var_almacenamiento.dir/build.make apps/CMakeFiles/e038_var_almacenamiento.dir/build
+.PHONY : e038_var_almacenamiento/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e035_func_referencia.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e035_func_referencia.dir/rule
+.PHONY : apps/CMakeFiles/e035_func_referencia.dir/rule
+
+# Convenience name for target.
+e035_func_referencia: apps/CMakeFiles/e035_func_referencia.dir/rule
+
+.PHONY : e035_func_referencia
+
+# fast build rule for target.
+e035_func_referencia/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e035_func_referencia.dir/build.make apps/CMakeFiles/e035_func_referencia.dir/build
+.PHONY : e035_func_referencia/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e034_func_valor.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e034_func_valor.dir/rule
+.PHONY : apps/CMakeFiles/e034_func_valor.dir/rule
+
+# Convenience name for target.
+e034_func_valor: apps/CMakeFiles/e034_func_valor.dir/rule
+
+.PHONY : e034_func_valor
+
+# fast build rule for target.
+e034_func_valor/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e034_func_valor.dir/build.make apps/CMakeFiles/e034_func_valor.dir/build
+.PHONY : e034_func_valor/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e033_function_permutacion.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e033_function_permutacion.dir/rule
+.PHONY : apps/CMakeFiles/e033_function_permutacion.dir/rule
+
+# Convenience name for target.
+e033_function_permutacion: apps/CMakeFiles/e033_function_permutacion.dir/rule
+
+.PHONY : e033_function_permutacion
+
+# fast build rule for target.
+e033_function_permutacion/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e033_function_permutacion.dir/build.make apps/CMakeFiles/e033_function_permutacion.dir/build
+.PHONY : e033_function_permutacion/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e031_function_compare.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e031_function_compare.dir/rule
+.PHONY : apps/CMakeFiles/e031_function_compare.dir/rule
+
+# Convenience name for target.
+e031_function_compare: apps/CMakeFiles/e031_function_compare.dir/rule
+
+.PHONY : e031_function_compare
+
+# fast build rule for target.
+e031_function_compare/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e031_function_compare.dir/build.make apps/CMakeFiles/e031_function_compare.dir/build
+.PHONY : e031_function_compare/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e029_function_raiz.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e029_function_raiz.dir/rule
+.PHONY : apps/CMakeFiles/e029_function_raiz.dir/rule
+
+# Convenience name for target.
+e029_function_raiz: apps/CMakeFiles/e029_function_raiz.dir/rule
+
+.PHONY : e029_function_raiz
+
+# fast build rule for target.
+e029_function_raiz/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e029_function_raiz.dir/build.make apps/CMakeFiles/e029_function_raiz.dir/build
+.PHONY : e029_function_raiz/fast
 
 # Convenience name for target.
 apps/CMakeFiles/e028_loops_3.dir/rule:
@@ -250,6 +355,21 @@ hwk_01/fast:
 .PHONY : hwk_01/fast
 
 # Convenience name for target.
+apps/CMakeFiles/e032_function_recursiva.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e032_function_recursiva.dir/rule
+.PHONY : apps/CMakeFiles/e032_function_recursiva.dir/rule
+
+# Convenience name for target.
+e032_function_recursiva: apps/CMakeFiles/e032_function_recursiva.dir/rule
+
+.PHONY : e032_function_recursiva
+
+# fast build rule for target.
+e032_function_recursiva/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e032_function_recursiva.dir/build.make apps/CMakeFiles/e032_function_recursiva.dir/build
+.PHONY : e032_function_recursiva/fast
+
+# Convenience name for target.
 apps/CMakeFiles/e009_operadorArtimetico.dir/rule:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e009_operadorArtimetico.dir/rule
 .PHONY : apps/CMakeFiles/e009_operadorArtimetico.dir/rule
@@ -323,6 +443,21 @@ e008_typebool: apps/CMakeFiles/e008_typebool.dir/rule
 e008_typebool/fast:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
 .PHONY : e008_typebool/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e030_function_cube.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e030_function_cube.dir/rule
+.PHONY : apps/CMakeFiles/e030_function_cube.dir/rule
+
+# Convenience name for target.
+e030_function_cube: apps/CMakeFiles/e030_function_cube.dir/rule
+
+.PHONY : e030_function_cube
+
+# fast build rule for target.
+e030_function_cube/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e030_function_cube.dir/build.make apps/CMakeFiles/e030_function_cube.dir/build
+.PHONY : e030_function_cube/fast
 
 # Convenience name for target.
 apps/CMakeFiles/hwk_02.dir/rule:
@@ -413,6 +548,21 @@ e027_loops_2: apps/CMakeFiles/e027_loops_2.dir/rule
 e027_loops_2/fast:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/build
 .PHONY : e027_loops_2/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e036_func_ref-const.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e036_func_ref-const.dir/rule
+.PHONY : apps/CMakeFiles/e036_func_ref-const.dir/rule
+
+# Convenience name for target.
+e036_func_ref-const: apps/CMakeFiles/e036_func_ref-const.dir/rule
+
+.PHONY : e036_func_ref-const
+
+# fast build rule for target.
+e036_func_ref-const/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e036_func_ref-const.dir/build.make apps/CMakeFiles/e036_func_ref-const.dir/build
+.PHONY : e036_func_ref-const/fast
 
 # Convenience name for target.
 apps/CMakeFiles/e012_operadoresRelacionales.dir/rule:
@@ -548,6 +698,21 @@ e016_casting: apps/CMakeFiles/e016_casting.dir/rule
 e016_casting/fast:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
 .PHONY : e016_casting/fast
+
+# Convenience name for target.
+apps/CMakeFiles/e037_var_alcance.dir/rule:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/e037_var_alcance.dir/rule
+.PHONY : apps/CMakeFiles/e037_var_alcance.dir/rule
+
+# Convenience name for target.
+e037_var_alcance: apps/CMakeFiles/e037_var_alcance.dir/rule
+
+.PHONY : e037_var_alcance
+
+# fast build rule for target.
+e037_var_alcance/fast:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e037_var_alcance.dir/build.make apps/CMakeFiles/e037_var_alcance.dir/build
+.PHONY : e037_var_alcance/fast
 
 # Convenience name for target.
 apps/CMakeFiles/hwk_02_2.dir/rule:
@@ -1440,6 +1605,330 @@ e028_loops_3.cpp.s:
 	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e028_loops_3.dir/build.make apps/CMakeFiles/e028_loops_3.dir/e028_loops_3.cpp.s
 .PHONY : e028_loops_3.cpp.s
 
+e029_function_raiz.o: e029_function_raiz.cpp.o
+
+.PHONY : e029_function_raiz.o
+
+# target to build an object file
+e029_function_raiz.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e029_function_raiz.dir/build.make apps/CMakeFiles/e029_function_raiz.dir/e029_function_raiz.cpp.o
+.PHONY : e029_function_raiz.cpp.o
+
+e029_function_raiz.i: e029_function_raiz.cpp.i
+
+.PHONY : e029_function_raiz.i
+
+# target to preprocess a source file
+e029_function_raiz.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e029_function_raiz.dir/build.make apps/CMakeFiles/e029_function_raiz.dir/e029_function_raiz.cpp.i
+.PHONY : e029_function_raiz.cpp.i
+
+e029_function_raiz.s: e029_function_raiz.cpp.s
+
+.PHONY : e029_function_raiz.s
+
+# target to generate assembly for a file
+e029_function_raiz.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e029_function_raiz.dir/build.make apps/CMakeFiles/e029_function_raiz.dir/e029_function_raiz.cpp.s
+.PHONY : e029_function_raiz.cpp.s
+
+e030_function_cube.o: e030_function_cube.cpp.o
+
+.PHONY : e030_function_cube.o
+
+# target to build an object file
+e030_function_cube.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e030_function_cube.dir/build.make apps/CMakeFiles/e030_function_cube.dir/e030_function_cube.cpp.o
+.PHONY : e030_function_cube.cpp.o
+
+e030_function_cube.i: e030_function_cube.cpp.i
+
+.PHONY : e030_function_cube.i
+
+# target to preprocess a source file
+e030_function_cube.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e030_function_cube.dir/build.make apps/CMakeFiles/e030_function_cube.dir/e030_function_cube.cpp.i
+.PHONY : e030_function_cube.cpp.i
+
+e030_function_cube.s: e030_function_cube.cpp.s
+
+.PHONY : e030_function_cube.s
+
+# target to generate assembly for a file
+e030_function_cube.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e030_function_cube.dir/build.make apps/CMakeFiles/e030_function_cube.dir/e030_function_cube.cpp.s
+.PHONY : e030_function_cube.cpp.s
+
+e031_function_compare.o: e031_function_compare.cpp.o
+
+.PHONY : e031_function_compare.o
+
+# target to build an object file
+e031_function_compare.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e031_function_compare.dir/build.make apps/CMakeFiles/e031_function_compare.dir/e031_function_compare.cpp.o
+.PHONY : e031_function_compare.cpp.o
+
+e031_function_compare.i: e031_function_compare.cpp.i
+
+.PHONY : e031_function_compare.i
+
+# target to preprocess a source file
+e031_function_compare.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e031_function_compare.dir/build.make apps/CMakeFiles/e031_function_compare.dir/e031_function_compare.cpp.i
+.PHONY : e031_function_compare.cpp.i
+
+e031_function_compare.s: e031_function_compare.cpp.s
+
+.PHONY : e031_function_compare.s
+
+# target to generate assembly for a file
+e031_function_compare.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e031_function_compare.dir/build.make apps/CMakeFiles/e031_function_compare.dir/e031_function_compare.cpp.s
+.PHONY : e031_function_compare.cpp.s
+
+e032_function_recursiva.o: e032_function_recursiva.cpp.o
+
+.PHONY : e032_function_recursiva.o
+
+# target to build an object file
+e032_function_recursiva.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e032_function_recursiva.dir/build.make apps/CMakeFiles/e032_function_recursiva.dir/e032_function_recursiva.cpp.o
+.PHONY : e032_function_recursiva.cpp.o
+
+e032_function_recursiva.i: e032_function_recursiva.cpp.i
+
+.PHONY : e032_function_recursiva.i
+
+# target to preprocess a source file
+e032_function_recursiva.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e032_function_recursiva.dir/build.make apps/CMakeFiles/e032_function_recursiva.dir/e032_function_recursiva.cpp.i
+.PHONY : e032_function_recursiva.cpp.i
+
+e032_function_recursiva.s: e032_function_recursiva.cpp.s
+
+.PHONY : e032_function_recursiva.s
+
+# target to generate assembly for a file
+e032_function_recursiva.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e032_function_recursiva.dir/build.make apps/CMakeFiles/e032_function_recursiva.dir/e032_function_recursiva.cpp.s
+.PHONY : e032_function_recursiva.cpp.s
+
+e033_function_permutacion.o: e033_function_permutacion.cpp.o
+
+.PHONY : e033_function_permutacion.o
+
+# target to build an object file
+e033_function_permutacion.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e033_function_permutacion.dir/build.make apps/CMakeFiles/e033_function_permutacion.dir/e033_function_permutacion.cpp.o
+.PHONY : e033_function_permutacion.cpp.o
+
+e033_function_permutacion.i: e033_function_permutacion.cpp.i
+
+.PHONY : e033_function_permutacion.i
+
+# target to preprocess a source file
+e033_function_permutacion.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e033_function_permutacion.dir/build.make apps/CMakeFiles/e033_function_permutacion.dir/e033_function_permutacion.cpp.i
+.PHONY : e033_function_permutacion.cpp.i
+
+e033_function_permutacion.s: e033_function_permutacion.cpp.s
+
+.PHONY : e033_function_permutacion.s
+
+# target to generate assembly for a file
+e033_function_permutacion.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e033_function_permutacion.dir/build.make apps/CMakeFiles/e033_function_permutacion.dir/e033_function_permutacion.cpp.s
+.PHONY : e033_function_permutacion.cpp.s
+
+e034_func_valor.o: e034_func_valor.cpp.o
+
+.PHONY : e034_func_valor.o
+
+# target to build an object file
+e034_func_valor.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e034_func_valor.dir/build.make apps/CMakeFiles/e034_func_valor.dir/e034_func_valor.cpp.o
+.PHONY : e034_func_valor.cpp.o
+
+e034_func_valor.i: e034_func_valor.cpp.i
+
+.PHONY : e034_func_valor.i
+
+# target to preprocess a source file
+e034_func_valor.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e034_func_valor.dir/build.make apps/CMakeFiles/e034_func_valor.dir/e034_func_valor.cpp.i
+.PHONY : e034_func_valor.cpp.i
+
+e034_func_valor.s: e034_func_valor.cpp.s
+
+.PHONY : e034_func_valor.s
+
+# target to generate assembly for a file
+e034_func_valor.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e034_func_valor.dir/build.make apps/CMakeFiles/e034_func_valor.dir/e034_func_valor.cpp.s
+.PHONY : e034_func_valor.cpp.s
+
+e035_func_referencia.o: e035_func_referencia.cpp.o
+
+.PHONY : e035_func_referencia.o
+
+# target to build an object file
+e035_func_referencia.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e035_func_referencia.dir/build.make apps/CMakeFiles/e035_func_referencia.dir/e035_func_referencia.cpp.o
+.PHONY : e035_func_referencia.cpp.o
+
+e035_func_referencia.i: e035_func_referencia.cpp.i
+
+.PHONY : e035_func_referencia.i
+
+# target to preprocess a source file
+e035_func_referencia.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e035_func_referencia.dir/build.make apps/CMakeFiles/e035_func_referencia.dir/e035_func_referencia.cpp.i
+.PHONY : e035_func_referencia.cpp.i
+
+e035_func_referencia.s: e035_func_referencia.cpp.s
+
+.PHONY : e035_func_referencia.s
+
+# target to generate assembly for a file
+e035_func_referencia.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e035_func_referencia.dir/build.make apps/CMakeFiles/e035_func_referencia.dir/e035_func_referencia.cpp.s
+.PHONY : e035_func_referencia.cpp.s
+
+e036_func_ref-const.o: e036_func_ref-const.cpp.o
+
+.PHONY : e036_func_ref-const.o
+
+# target to build an object file
+e036_func_ref-const.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e036_func_ref-const.dir/build.make apps/CMakeFiles/e036_func_ref-const.dir/e036_func_ref-const.cpp.o
+.PHONY : e036_func_ref-const.cpp.o
+
+e036_func_ref-const.i: e036_func_ref-const.cpp.i
+
+.PHONY : e036_func_ref-const.i
+
+# target to preprocess a source file
+e036_func_ref-const.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e036_func_ref-const.dir/build.make apps/CMakeFiles/e036_func_ref-const.dir/e036_func_ref-const.cpp.i
+.PHONY : e036_func_ref-const.cpp.i
+
+e036_func_ref-const.s: e036_func_ref-const.cpp.s
+
+.PHONY : e036_func_ref-const.s
+
+# target to generate assembly for a file
+e036_func_ref-const.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e036_func_ref-const.dir/build.make apps/CMakeFiles/e036_func_ref-const.dir/e036_func_ref-const.cpp.s
+.PHONY : e036_func_ref-const.cpp.s
+
+e037_var_alcance.o: e037_var_alcance.cpp.o
+
+.PHONY : e037_var_alcance.o
+
+# target to build an object file
+e037_var_alcance.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e037_var_alcance.dir/build.make apps/CMakeFiles/e037_var_alcance.dir/e037_var_alcance.cpp.o
+.PHONY : e037_var_alcance.cpp.o
+
+e037_var_alcance.i: e037_var_alcance.cpp.i
+
+.PHONY : e037_var_alcance.i
+
+# target to preprocess a source file
+e037_var_alcance.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e037_var_alcance.dir/build.make apps/CMakeFiles/e037_var_alcance.dir/e037_var_alcance.cpp.i
+.PHONY : e037_var_alcance.cpp.i
+
+e037_var_alcance.s: e037_var_alcance.cpp.s
+
+.PHONY : e037_var_alcance.s
+
+# target to generate assembly for a file
+e037_var_alcance.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e037_var_alcance.dir/build.make apps/CMakeFiles/e037_var_alcance.dir/e037_var_alcance.cpp.s
+.PHONY : e037_var_alcance.cpp.s
+
+e038_var_almacenamiento.o: e038_var_almacenamiento.cpp.o
+
+.PHONY : e038_var_almacenamiento.o
+
+# target to build an object file
+e038_var_almacenamiento.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e038_var_almacenamiento.dir/build.make apps/CMakeFiles/e038_var_almacenamiento.dir/e038_var_almacenamiento.cpp.o
+.PHONY : e038_var_almacenamiento.cpp.o
+
+e038_var_almacenamiento.i: e038_var_almacenamiento.cpp.i
+
+.PHONY : e038_var_almacenamiento.i
+
+# target to preprocess a source file
+e038_var_almacenamiento.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e038_var_almacenamiento.dir/build.make apps/CMakeFiles/e038_var_almacenamiento.dir/e038_var_almacenamiento.cpp.i
+.PHONY : e038_var_almacenamiento.cpp.i
+
+e038_var_almacenamiento.s: e038_var_almacenamiento.cpp.s
+
+.PHONY : e038_var_almacenamiento.s
+
+# target to generate assembly for a file
+e038_var_almacenamiento.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e038_var_almacenamiento.dir/build.make apps/CMakeFiles/e038_var_almacenamiento.dir/e038_var_almacenamiento.cpp.s
+.PHONY : e038_var_almacenamiento.cpp.s
+
+e039_file1.o: e039_file1.cpp.o
+
+.PHONY : e039_file1.o
+
+# target to build an object file
+e039_file1.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e039_file1.cpp.o
+.PHONY : e039_file1.cpp.o
+
+e039_file1.i: e039_file1.cpp.i
+
+.PHONY : e039_file1.i
+
+# target to preprocess a source file
+e039_file1.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e039_file1.cpp.i
+.PHONY : e039_file1.cpp.i
+
+e039_file1.s: e039_file1.cpp.s
+
+.PHONY : e039_file1.s
+
+# target to generate assembly for a file
+e039_file1.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e039_file1.cpp.s
+.PHONY : e039_file1.cpp.s
+
+e040_file2.o: e040_file2.cpp.o
+
+.PHONY : e040_file2.o
+
+# target to build an object file
+e040_file2.cpp.o:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e040_file2.cpp.o
+.PHONY : e040_file2.cpp.o
+
+e040_file2.i: e040_file2.cpp.i
+
+.PHONY : e040_file2.i
+
+# target to preprocess a source file
+e040_file2.cpp.i:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e040_file2.cpp.i
+.PHONY : e040_file2.cpp.i
+
+e040_file2.s: e040_file2.cpp.s
+
+.PHONY : e040_file2.s
+
+# target to generate assembly for a file
+e040_file2.cpp.s:
+	cd /home/chepeaicrag/Escritorio/CPP-2020/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/e040_file2.cpp.s
+.PHONY : e040_file2.cpp.s
+
 hwk_01.o: hwk_01.cpp.o
 
 .PHONY : hwk_01.o
@@ -1719,6 +2208,17 @@ help:
 	@echo "... e026_loops_1"
 	@echo "... e027_loops_2"
 	@echo "... e028_loops_3"
+	@echo "... e029_function_raiz"
+	@echo "... e030_function_cube"
+	@echo "... e031_function_compare"
+	@echo "... e032_function_recursiva"
+	@echo "... e033_function_permutacion"
+	@echo "... e034_func_valor"
+	@echo "... e035_func_referencia"
+	@echo "... e036_func_ref-const"
+	@echo "... e037_var_alcance"
+	@echo "... e038_var_almacenamiento"
+	@echo "... e040_files"
 	@echo "... hwk_01"
 	@echo "... hwk_02"
 	@echo "... hwk_02_2"
@@ -1812,6 +2312,42 @@ help:
 	@echo "... e028_loops_3.o"
 	@echo "... e028_loops_3.i"
 	@echo "... e028_loops_3.s"
+	@echo "... e029_function_raiz.o"
+	@echo "... e029_function_raiz.i"
+	@echo "... e029_function_raiz.s"
+	@echo "... e030_function_cube.o"
+	@echo "... e030_function_cube.i"
+	@echo "... e030_function_cube.s"
+	@echo "... e031_function_compare.o"
+	@echo "... e031_function_compare.i"
+	@echo "... e031_function_compare.s"
+	@echo "... e032_function_recursiva.o"
+	@echo "... e032_function_recursiva.i"
+	@echo "... e032_function_recursiva.s"
+	@echo "... e033_function_permutacion.o"
+	@echo "... e033_function_permutacion.i"
+	@echo "... e033_function_permutacion.s"
+	@echo "... e034_func_valor.o"
+	@echo "... e034_func_valor.i"
+	@echo "... e034_func_valor.s"
+	@echo "... e035_func_referencia.o"
+	@echo "... e035_func_referencia.i"
+	@echo "... e035_func_referencia.s"
+	@echo "... e036_func_ref-const.o"
+	@echo "... e036_func_ref-const.i"
+	@echo "... e036_func_ref-const.s"
+	@echo "... e037_var_alcance.o"
+	@echo "... e037_var_alcance.i"
+	@echo "... e037_var_alcance.s"
+	@echo "... e038_var_almacenamiento.o"
+	@echo "... e038_var_almacenamiento.i"
+	@echo "... e038_var_almacenamiento.s"
+	@echo "... e039_file1.o"
+	@echo "... e039_file1.i"
+	@echo "... e039_file1.s"
+	@echo "... e040_file2.o"
+	@echo "... e040_file2.i"
+	@echo "... e040_file2.s"
 	@echo "... hwk_01.o"
 	@echo "... hwk_01.i"
 	@echo "... hwk_01.s"

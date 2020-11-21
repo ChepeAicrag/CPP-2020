@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e034_func_valor.dir/e034_func_valor.cpp.o -o e034_func_valor 

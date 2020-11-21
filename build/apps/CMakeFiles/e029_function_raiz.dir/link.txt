@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e029_function_raiz.dir/e029_function_raiz.cpp.o -o e029_function_raiz 

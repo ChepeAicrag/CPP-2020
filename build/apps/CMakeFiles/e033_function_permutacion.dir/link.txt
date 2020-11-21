@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e033_function_permutacion.dir/e033_function_permutacion.cpp.o -o e033_function_permutacion 

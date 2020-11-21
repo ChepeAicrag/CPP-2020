@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e038_var_almacenamiento.dir/e038_var_almacenamiento.cpp.o -o e038_var_almacenamiento 

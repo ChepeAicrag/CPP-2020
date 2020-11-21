@@ -130,6 +130,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named e040_files
+
+# Build rule for target.
+e040_files: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e040_files
+.PHONY : e040_files
+
+# fast build rule for target.
+e040_files/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e040_files.dir/build.make apps/CMakeFiles/e040_files.dir/build
+.PHONY : e040_files/fast
+
+#=============================================================================
+# Target rules for targets named e038_var_almacenamiento
+
+# Build rule for target.
+e038_var_almacenamiento: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e038_var_almacenamiento
+.PHONY : e038_var_almacenamiento
+
+# fast build rule for target.
+e038_var_almacenamiento/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e038_var_almacenamiento.dir/build.make apps/CMakeFiles/e038_var_almacenamiento.dir/build
+.PHONY : e038_var_almacenamiento/fast
+
+#=============================================================================
+# Target rules for targets named e035_func_referencia
+
+# Build rule for target.
+e035_func_referencia: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e035_func_referencia
+.PHONY : e035_func_referencia
+
+# fast build rule for target.
+e035_func_referencia/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e035_func_referencia.dir/build.make apps/CMakeFiles/e035_func_referencia.dir/build
+.PHONY : e035_func_referencia/fast
+
+#=============================================================================
+# Target rules for targets named e034_func_valor
+
+# Build rule for target.
+e034_func_valor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e034_func_valor
+.PHONY : e034_func_valor
+
+# fast build rule for target.
+e034_func_valor/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e034_func_valor.dir/build.make apps/CMakeFiles/e034_func_valor.dir/build
+.PHONY : e034_func_valor/fast
+
+#=============================================================================
+# Target rules for targets named e033_function_permutacion
+
+# Build rule for target.
+e033_function_permutacion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e033_function_permutacion
+.PHONY : e033_function_permutacion
+
+# fast build rule for target.
+e033_function_permutacion/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e033_function_permutacion.dir/build.make apps/CMakeFiles/e033_function_permutacion.dir/build
+.PHONY : e033_function_permutacion/fast
+
+#=============================================================================
+# Target rules for targets named e031_function_compare
+
+# Build rule for target.
+e031_function_compare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e031_function_compare
+.PHONY : e031_function_compare
+
+# fast build rule for target.
+e031_function_compare/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e031_function_compare.dir/build.make apps/CMakeFiles/e031_function_compare.dir/build
+.PHONY : e031_function_compare/fast
+
+#=============================================================================
+# Target rules for targets named e029_function_raiz
+
+# Build rule for target.
+e029_function_raiz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e029_function_raiz
+.PHONY : e029_function_raiz
+
+# fast build rule for target.
+e029_function_raiz/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e029_function_raiz.dir/build.make apps/CMakeFiles/e029_function_raiz.dir/build
+.PHONY : e029_function_raiz/fast
+
+#=============================================================================
 # Target rules for targets named e028_loops_3
 
 # Build rule for target.
@@ -234,6 +325,19 @@ hwk_01/fast:
 .PHONY : hwk_01/fast
 
 #=============================================================================
+# Target rules for targets named e032_function_recursiva
+
+# Build rule for target.
+e032_function_recursiva: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e032_function_recursiva
+.PHONY : e032_function_recursiva
+
+# fast build rule for target.
+e032_function_recursiva/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e032_function_recursiva.dir/build.make apps/CMakeFiles/e032_function_recursiva.dir/build
+.PHONY : e032_function_recursiva/fast
+
+#=============================================================================
 # Target rules for targets named e009_operadorArtimetico
 
 # Build rule for target.
@@ -297,6 +401,19 @@ e008_typebool: cmake_check_build_system
 e008_typebool/fast:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e008_typebool.dir/build.make apps/CMakeFiles/e008_typebool.dir/build
 .PHONY : e008_typebool/fast
+
+#=============================================================================
+# Target rules for targets named e030_function_cube
+
+# Build rule for target.
+e030_function_cube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e030_function_cube
+.PHONY : e030_function_cube
+
+# fast build rule for target.
+e030_function_cube/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e030_function_cube.dir/build.make apps/CMakeFiles/e030_function_cube.dir/build
+.PHONY : e030_function_cube/fast
 
 #=============================================================================
 # Target rules for targets named hwk_02
@@ -375,6 +492,19 @@ e027_loops_2: cmake_check_build_system
 e027_loops_2/fast:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e027_loops_2.dir/build.make apps/CMakeFiles/e027_loops_2.dir/build
 .PHONY : e027_loops_2/fast
+
+#=============================================================================
+# Target rules for targets named e036_func_ref-const
+
+# Build rule for target.
+e036_func_ref-const: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e036_func_ref-const
+.PHONY : e036_func_ref-const
+
+# fast build rule for target.
+e036_func_ref-const/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e036_func_ref-const.dir/build.make apps/CMakeFiles/e036_func_ref-const.dir/build
+.PHONY : e036_func_ref-const/fast
 
 #=============================================================================
 # Target rules for targets named e012_operadoresRelacionales
@@ -492,6 +622,19 @@ e016_casting: cmake_check_build_system
 e016_casting/fast:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e016_casting.dir/build.make apps/CMakeFiles/e016_casting.dir/build
 .PHONY : e016_casting/fast
+
+#=============================================================================
+# Target rules for targets named e037_var_alcance
+
+# Build rule for target.
+e037_var_alcance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e037_var_alcance
+.PHONY : e037_var_alcance
+
+# fast build rule for target.
+e037_var_alcance/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/e037_var_alcance.dir/build.make apps/CMakeFiles/e037_var_alcance.dir/build
+.PHONY : e037_var_alcance/fast
 
 #=============================================================================
 # Target rules for targets named hwk_02_2
@@ -646,6 +789,17 @@ help:
 	@echo "... e026_loops_1"
 	@echo "... e027_loops_2"
 	@echo "... e028_loops_3"
+	@echo "... e029_function_raiz"
+	@echo "... e030_function_cube"
+	@echo "... e031_function_compare"
+	@echo "... e032_function_recursiva"
+	@echo "... e033_function_permutacion"
+	@echo "... e034_func_valor"
+	@echo "... e035_func_referencia"
+	@echo "... e036_func_ref-const"
+	@echo "... e037_var_alcance"
+	@echo "... e038_var_almacenamiento"
+	@echo "... e040_files"
 	@echo "... hwk_01"
 	@echo "... hwk_02"
 	@echo "... hwk_02_2"

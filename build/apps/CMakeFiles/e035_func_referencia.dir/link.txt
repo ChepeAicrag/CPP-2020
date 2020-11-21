@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e035_func_referencia.dir/e035_func_referencia.cpp.o -o e035_func_referencia 

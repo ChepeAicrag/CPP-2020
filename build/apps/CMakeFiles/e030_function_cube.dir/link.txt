@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x CMakeFiles/e030_function_cube.dir/e030_function_cube.cpp.o -o e030_function_cube 
